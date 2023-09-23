@@ -7,7 +7,7 @@ The background color is `#RRGGBB` for light mode and `#0969DA` for dark mode.
 
 @Kzamudio ¿Qué te parece el repositorio? ¡Está chido! :+1:
 
-> [!NOTA]
+> [!NOTE]
 > Highlights information that users should take into account, even when skimming.
 
 > [!IMPORTANT]
