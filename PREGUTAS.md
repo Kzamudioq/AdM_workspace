@@ -41,7 +41,7 @@ Estoy emocionada de ayudarte a comprender las familias de microprocesadores de ð
 
 
 <p align="center" width="100%">
-    <img width="33%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/adb5c11f-1ac9-4721-8ac3-b29000a83795"> 
+    <img width="70%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/adb5c11f-1ac9-4721-8ac3-b29000a83795"> 
 </p>
 
 
