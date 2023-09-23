@@ -52,13 +52,13 @@ Referencia: [ARM Architectures](https://developer.arm.com/architectures)
 
 ## Diferencias Entre las Familias Cortex-M
 
-¡Claro! En el mundo de los microprocesadores ARM, las familias Cortex-M0, M3 y M4 tienen sus propias peculiaridades. El Cortex-M0 es simple y eficiente en energía, ideal para aplicaciones con recursos limitados. El Cortex-M3 ofrece un rendimiento más sólido y se adapta bien a una variedad de aplicaciones. Por último, el Cortex-M4 es similar al M3 pero agrega capacidades de procesamiento de señales digitales (DSP) y punto flotante, lo que lo hace excelente para aplicaciones que requieren un procesamiento intensivo.
+<p style="text-align: justify;">¡Claro! En el mundo de los microprocesadores ARM, las familias Cortex-M0, M3 y M4 tienen sus propias peculiaridades. El Cortex-M0 es simple y eficiente en energía, ideal para aplicaciones con recursos limitados. El Cortex-M3 ofrece un rendimiento más sólido y se adapta bien a una variedad de aplicaciones. Por último, el Cortex-M4 es similar al M3 pero agrega capacidades de procesamiento de señales digitales (DSP) y punto flotante, lo que lo hace excelente para aplicaciones que requieren un procesamiento intensivo.</p>
 
 Referencia: [Comparación de las familias Cortex-M](https://developer.arm.com/ip-products/processors/cortex-m)
 
 ## Ventajas del Conjunto de Instrucciones Thumb
 
-¡Vamos a explorar esto! El conjunto de instrucciones Thumb de ARM es como un atajo inteligente para reducir el tamaño del código. Las instrucciones Thumb son más compactas, lo que significa que ocupan menos espacio en la memoria. Esto es esencial en dispositivos con recursos limitados. Al reducir el tamaño del código, aumentamos la densidad de código, lo que permite almacenar más instrucciones en la misma cantidad de memoria. Es como un juego de tetris con código, ¡optimizando cada espacio disponible!
+<p style="text-align: justify;">¡Vamos a explorar esto! El conjunto de instrucciones Thumb de ARM es como un atajo inteligente para reducir el tamaño del código. Las instrucciones Thumb son más compactas, lo que significa que ocupan menos espacio en la memoria. Esto es esencial en dispositivos con recursos limitados. Al reducir el tamaño del código, aumentamos la densidad de código, lo que permite almacenar más instrucciones en la misma cantidad de memoria. Es como un juego de tetris con código, ¡optimizando cada espacio disponible!</p>
 
 Referencia: [ARM Thumb Instruction Set](https://developer.arm.com/documentation/ddi0210/c/)
 
