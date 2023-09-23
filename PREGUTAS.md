@@ -13,7 +13,7 @@
 Vaya ! antes de sumergirnos en las diferencias entre las familias Cortex y todo lo relacionado a la acrquitectura de `micros`, primero entendamos la importancia de estos pequeños pero poderosos dispositivos 🤓🤓. Un microcontrolador es un pequeño dispositivo electrónico que integra un procesador, memoria y periféricos en un solo chip como se evidencia en la *Imagen de Esquema de bloques del microcontrolador*, su propósito principal es controlar, monitorear y ejecutar tareas en sistemas embebidos. 
 
 <div class="center">
-  <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/466c6c44-d85b-43ae-bdda-a748411061ca" width="800">
+  <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/466c6c44-d85b-43ae-bdda-a748411061ca" width="600">
 </div>
 
 *Imagen de esquema de bloques del microcontrolador citada desde [este enlace](https://www.disca.upv.es/aperles/arm_cortex_m3/llibre/libro-ARM-Cortex-M.pdf).*
@@ -21,7 +21,7 @@ Vaya ! antes de sumergirnos en las diferencias entre las familias Cortex y todo 
 ¿Qué significa eso? Bueno, los sistemas embebidos son sistemas informáticos especializados que están ocultos dentro de otros dispositivos, como electrodomésticos, automóviles, dispositivos médicos y más. Lo que hace que los microcontroladores sean especiales es su capacidad para ejecutar programas específicos y controlar dispositivos del mundo real, como sensores, actuadores, pantallas y más. Son como el cerebro de muchos dispositivos que usamos a diario.
 
 <div class="center">
-  <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/666df2f9-a260-4824-9562-23ff7f75a737" width="800">
+  <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/666df2f9-a260-4824-9562-23ff7f75a737" width="600">
 </div>
 
 *Imagen de aplicación de procesadores ARM citada desde [este enlace](https://www.kovair.com/blog/future-of-arm-software-development/).*
@@ -34,7 +34,7 @@ Vaya ! antes de sumergirnos en las diferencias entre las familias Cortex y todo 
 Estoy emocionada de ayudarte a comprender las familias de microprocesadores de 🅰️🆁🅼. Las familias principales son `Cortex-A`, `Cortex-R` y `Cortex-M`, cada una tiene un propósito distinto, en `Cortex-A` se destaca en el rendimiento y se encuentra en dispositivos como smartphones, para `Cortex-R` el enfoca es dado en aplicaciones en tiempo real, como sistemas de control, por último, `Cortex-M` es ideal para sistemas embebidos de baja potencia, como sensores y dispositivos IoT. De esta manera, es favorable indicar que las diferencias clave incluyen `la potencia de procesamiento y el conjunto de características`, lo que permite adaptarlos a diversas aplicaciones.
 
 <div class="center">
-  <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/adb5c11f-1ac9-4721-8ac3-b29000a83795" width="800">
+  <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/adb5c11f-1ac9-4721-8ac3-b29000a83795" width="600">
 </div>
 
 *Imagen de ARM citada desde [este enlace](https://www.orientdisplay.com/es/how-to-select-arm-processors/).*
