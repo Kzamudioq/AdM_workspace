@@ -18,6 +18,29 @@ Durante esta aventura, exploraremos juntos las respuestas a las preguntas orient
 ¡Hola! Soy Lisa Simpson y estoy emocionada de ayudarte a comprender las familias de microprocesadores de ARM. Las familias principales son `Cortex-A`, `Cortex-R` y `Cortex-M`. Cada una tiene un propósito distinto. `Cortex-A` se destaca en el rendimiento y se encuentra en dispositivos como smartphones. `Cortex-R` se enfoca en aplicaciones en tiempo real, como sistemas de control. Por último, Cortex-M es ideal para sistemas embebidos de baja potencia, como sensores y dispositivos IoT. Las diferencias clave incluyen la potencia de procesamiento y el conjunto de características, lo que permite adaptarlos a diversas aplicaciones.
 
 
+<table style="background-color: #FFFF99;">
+  <tr>
+    <th>Familia de Procesadores</th>
+    <th>Características Clave</th>
+    <th>Aplicaciones Principales</th>
+  </tr>
+  <tr>
+    <td><strong>Cortex M0</strong></td>
+    <td>Diseñado para eficiencia energética y bajo costo. Arquitectura simple y compacta.</td>
+    <td>Sistemas embebidos con recursos limitados. Sensores, dispositivos IoT.</td>
+  </tr>
+  <tr>
+    <td><strong>Cortex M3</strong></td>
+    <td>Equilibrio entre eficiencia y rendimiento. Soporte para interrupciones y multitarea.</td>
+    <td>Aplicaciones en tiempo real. Controladores de dispositivos.</td>
+  </tr>
+  <tr>
+    <td><strong>Cortex M4</strong></td>
+    <td>Similar al M3 pero con capacidades de DSP y punto flotante. Adecuado para aplicaciones de control y procesamiento de señales.</td>
+    <td>Aplicaciones de procesamiento intensivo. Robótica, sistemas de audio.</td>
+  </tr>
+</table>
+
 | Familia de Procesadores        | Características Clave                                      | Aplicaciones Principales  |
 | ------------------------------ | :--------------------------------------------------------: | ------------------------- |
 | **Cortex M0**                  | Diseñado para eficiencia energética y bajo costo. Arquitectura simple y compacta.         | Sistemas embebidos con recursos limitados. Sensores, dispositivos IoT.|
