@@ -161,6 +161,10 @@ Luego, realizamos las operaciones matemáticas y lógicas que necesitamos en nue
   <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/49bf9fdf-23de-427c-ad74-9699a55909b2" width="300" style="margin:auto">
 </div>
 
+<p align="center" width="100%">
+    <img width="33%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/49bf9fdf-23de-427c-ad74-9699a55909b2"> 
+</p>
+
 Recuerda que en esta arquitectura, no realizamos operaciones de datos directamente en la memoria principal; todo pasa por nuestros registros. ¡Es como una coreografía de baile perfectamente coordinada! 💃💻
 
 Referencia: [Arquitectura load-store](https://www.embedded.com/the-importance-of-the-load-store-architecture/)
