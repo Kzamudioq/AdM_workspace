@@ -7,10 +7,6 @@
 ¡Hola a todos! Soy Lisa Simpson, estoy aquí para ayudarte a navegar por el fascinante mundo de los microprocesadores ARM y resolver este cuestionario. 
 
 <div class="center">
-  <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/2162ff14-54d6-4734-abef-2d290409e292" alt="Lisa Simpson" width="300">
-</div>
-
-<div class="center">
   <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/67ba9f76-0e78-4c72-b221-bfcbd64c9453" width="300">
 </div>
 
@@ -65,9 +61,8 @@ De esta manera podemos decir que, Cortex-🅰️ es ideal para dispositivos de a
 
 `Referencia`: [ARM Architectures](https://developer.arm.com/architectures)
 
-
 <div class="center">
-  <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/67ba9f76-0e78-4c72-b221-bfcbd64c9453" width="300">
+  <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/2162ff14-54d6-4734-abef-2d290409e292" alt="Lisa Simpson" width="300">
 </div>
 
 ## 1. Diferencias Entre las Familias Cortex-<span style="color: blue;">🅼</span>
