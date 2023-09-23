@@ -22,10 +22,11 @@ Durante esta aventura, exploraremos juntos las respuestas a las preguntas orient
 
 
 
-![ARM](https://github.com/Kzamudioq/AdM_workspace/assets/138271936/3aca75fe-7193-4865-8a8a-b8366e5ab485)
 
+![ARM](https://github.com/Kzamudioq/AdM_workspace/assets/138271936/adb5c11f-1ac9-4721-8ac3-b29000a83795)
 
 `Referencia`: [ARM Architectures](https://developer.arm.com/architectures)
+*Imagen de ARM citada desde [este enlace](https://www.orientdisplay.com/es/how-to-select-arm-processors/).*
 
 
 <div class="center">
