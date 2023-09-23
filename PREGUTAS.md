@@ -7,7 +7,7 @@ The background color is `#RRGGBB` for light mode and `#0969DA` for dark mode.
 
 @octocat :+1: This PR looks great - it's ready to merge! :shipit:
 
-> [!NOTE]
+> [!NOTA]
 > Highlights information that users should take into account, even when skimming.
 
 > [!IMPORTANT]
