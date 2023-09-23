@@ -17,6 +17,18 @@ Durante esta aventura, exploraremos juntos las respuestas a las preguntas orient
 
 <p style="text-align: justify;">¡Hola! Soy Lisa Simpson y estoy emocionada de ayudarte a comprender las familias de microprocesadores de ARM. Las familias principales son `Cortex-A`, `Cortex-R` y `Cortex-M`. Cada una tiene un propósito distinto. `Cortex-A` se destaca en el rendimiento y se encuentra en dispositivos como smartphones. `Cortex-R` se enfoca en aplicaciones en tiempo real, como sistemas de control. Por último, Cortex-M es ideal para sistemas embebidos de baja potencia, como sensores y dispositivos IoT. Las diferencias clave incluyen la potencia de procesamiento y el conjunto de características, lo que permite adaptarlos a diversas aplicaciones.</p>
 
+| Familia de Procesadores | Características Clave | Aplicaciones Principales |
+|------------------------|-----------------------|--------------------------|
+| Cortex M0              | - Diseñado para la eficiencia energética y el bajo costo. | - Sistemas embebidos con recursos limitados. |
+|                        | - Arquitectura simple y compacta.                      | - Sensores, dispositivos IoT.              |
+|------------------------|-----------------------|--------------------------|
+| Cortex M3              | - Ofrece un equilibrio entre eficiencia y rendimiento.  | - Aplicaciones en tiempo real.            |
+|                        | - Soporte para interrupciones y multitarea.            | - Controladores de dispositivos.         |
+|------------------------|-----------------------|--------------------------|
+| Cortex M4              | - Similar al M3 pero con capacidades de DSP y punto flotante. | - Aplicaciones que requieren procesamiento intensivo. |
+|                        | - Adecuado para aplicaciones de control y procesamiento de señales. | - Robótica, sistemas de audio. |
+
+
 Referencia: [ARM Architectures](https://developer.arm.com/architectures)
 
 ## Diferencias Entre las Familias Cortex-M
@@ -42,5 +54,42 @@ Referencia: [Arquitectura load-store](https://www.embedded.com/the-importance-of
 Por supuesto, estaré encantada de explicarlo. La familia Cortex-M sigue un mapa de memoria típico para sistemas embebidos. La memoria flash se utiliza para almacenar el código, mientras que la RAM almacena datos. Los registros forman parte del procesador y se utilizan para operaciones de procesamiento. Los periféricos, como puertos de entrada/salida y temporizadores, se mapean en direcciones de memoria específicas para que el procesador pueda interactuar con ellos de manera eficiente. :blush:
 
 Referencia: [Mapa de memoria de ARM Cortex-M](https://www.keil.com/pack/doc/cmsis/Core/html/group__system__init__gr.html)
+
+
+
+
+
+
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
+
+> [!IMPORTANT]
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
+
+
+`línea de código`
+
+```php
+<?php
+  echo "fragmento largo de código";
+?>
+```
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+
+|Tables|Are|Cool|
+|-|:-:|-:|
+|col 1 is|left-aligned|$1600|
+|col 2 is|centered|$12|
+|col 3 is|right-aligned|$1|
+
 
 
