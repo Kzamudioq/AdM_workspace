@@ -61,17 +61,23 @@ Cortex-M está diseñado para microcontroladores (MCU) y se adapta a una varieda
 De esta manera podemos decir que, Cortex-🅰️ es ideal para dispositivos de alto rendimiento, Cortex-🆁 es perfecto para aplicaciones en tiempo real y Cortex-🅼 se adapta a una amplia gama de aplicaciones, desde eficiencia energética hasta rendimiento sólido. ¡Espero que esta guía te haya ayudado a comprender mejor estas familias de procesadores ARM! 😄
 
 
-`Referencia`: [ARM Architectures](https://developer.arm.com/architectures)
+
 
 <div class="center">
   <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/2162ff14-54d6-4734-abef-2d290409e292" alt="Lisa Simpson" width="300">
 </div>
 
+`Referencia`: [ARM Architectures](https://developer.arm.com/architectures)
+
 ## 1. Diferencias Entre las Familias Cortex-<span style="color: blue;">🅼</span>
 
 🧠 ¡Claro! En el mundo de los microprocesadores ARM, las familias `Cortex-M0, M0+, M1, M3 y M4` tienen sus propias peculiaridades. El `Cortex-M0` es simple y eficiente en energía, ideal para aplicaciones con recursos limitados, en `Cortex-M3` se obtiene un rendimiento más sólido y se adapta bien a una variedad de aplicaciones, mientras que el `Cortex-M4` es similar al M3 pero agrega capacidades de procesamiento de señales digitales (DSP) y punto flotante, lo que lo hace excelente para aplicaciones que requieren un procesamiento intensivo.💡
 
+<div class="center">
+  <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/49e114fe-c38e-4e2c-a474-600bff8c82d0" width="400">
+</div>
 
+`Referencia`: [ARM Architectures](https://soloelectronicos.com/2022/07/27/hablemos-de-la-familia-stm32/)
 
 
 <table style="font-size: 9px;">
