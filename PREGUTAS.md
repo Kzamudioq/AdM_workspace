@@ -150,7 +150,7 @@ Aplicabilidad: [ARM Thumb Instruction Set](https://developer.arm.com/documentati
 ## 3. Arquitectura Load-Store
 
 
-Imagina que tienes una caja de herramientas y una estantería llena de libros. En la arquitectura load-store, tratamos la memoria como nuestra estantería de libros y los registros como nuestra caja de herramientas.Cuando necesitamos trabajar con datos, como sumar dos números, primero debemos traer esos números de la estantería (memoria) y colocarlos en nuestra caja de herramientas (registros). Usamos instrucciones especiales de carga (load) para tomar datos de la memoria y guardarlos en nuestros registros.
+Imagina que tienes una caja de herramientas y una estantería llena de libros. En la arquitectura load-store, tratamos la memoria como nuestra estantería de libros y los registros como nuestra caja de herramientas. Cuando necesitamos trabajar con datos, como sumar dos números, primero debemos traer esos números de la estantería (memoria) y colocarlos en nuestra caja de herramientas (registros), usamos instrucciones especiales de carga (load) para tomar datos de la memoria y guardarlos en nuestros registros.
 
 Luego, realizamos las operaciones matemáticas y lógicas que necesitamos en nuestra caja de herramientas, aquí es donde ocurren las verdaderas "chispas" de la computación. Finalmente, cuando hemos terminado con nuestros datos, devolvemos los resultados a la estantería (memoria) utilizando instrucciones de almacenamiento (store), así, otros programas o partes de nuestro programa pueden acceder a esos datos en el futuro.
 
