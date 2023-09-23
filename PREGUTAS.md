@@ -43,12 +43,105 @@ Durante esta aventura, exploraremos juntos las respuestas a las preguntas orient
 
 
 
-Referencia: [ARM Architectures](https://developer.arm.com/architectures)
+´Referencia: [ARM Architectures](https://developer.arm.com/architectures)´
 
 ## Diferencias Entre las Familias Cortex-M
 
 ¡Claro! En el mundo de los microprocesadores ARM, las familias Cortex-M0, M3 y M4 tienen sus propias peculiaridades. El Cortex-M0 es simple y eficiente en energía, ideal para aplicaciones con recursos limitados. El Cortex-M3 ofrece un rendimiento más sólido y se adapta bien a una variedad de aplicaciones. Por último, el Cortex-M4 es similar al M3 pero agrega capacidades de procesamiento de señales digitales (DSP) y punto flotante, lo que lo hace excelente para aplicaciones que requieren un procesamiento intensivo.
 Referencia: [Comparación de las familias Cortex-M](https://developer.arm.com/ip-products/processors/cortex-m)
+
+<table style="background-color: #FFFF99; border-collapse: collapse; width: 80%; margin: auto;">
+  <tr style="background-color: #FFCC00; color: white;">
+    <th>Característica</th>
+    <th>Cortex M0</th>
+    <th>Cortex M3</th>
+    <th>Cortex M4</th>
+  </tr>
+  <tr>
+    <td>Eficiencia Energética</td>
+    <td>Alta eficiencia energética</td>
+    <td>Buena eficiencia energética</td>
+    <td>Buena eficiencia energética</td>
+  </tr>
+  <tr>
+    <td>Arquitectura</td>
+    <td>Simple y compacta</td>
+    <td>Moderadamente compleja</td>
+    <td>Moderadamente compleja</td>
+  </tr>
+  <tr>
+    <td>Soporte para Punto Flotante</td>
+    <td>No</td>
+    <td>No</td>
+    <td>Sí</td>
+  </tr>
+  <tr>
+    <td>DSP</td>
+    <td>No</td>
+    <td>No</td>
+    <td>Sí</td>
+  </tr>
+  <tr>
+    <td>FPU (Unidad de Punto Flotante)</td>
+    <td>No</td>
+    <td>No</td>
+    <td>Opcional (en algunos modelos)</td>
+  </tr>
+  <tr>
+    <td>Multitarea</td>
+    <td>No</td>
+    <td>Sí</td>
+    <td>Sí</td>
+  </tr>
+  <tr>
+    <td>Interrupciones</td>
+    <td>Limitado</td>
+    <td>Sí</td>
+    <td>Sí</td>
+  </tr>
+  <tr>
+    <td>Systick Timer</td>
+    <td>No</td>
+    <td>Sí</td>
+    <td>Sí</td>
+  </tr>
+  <tr>
+    <td>Bit-Banding</td>
+    <td>No</td>
+    <td>Sí</td>
+    <td>Sí</td>
+  </tr>
+  <tr>
+    <td>Memoria de Protección de Región (MPU)</td>
+    <td>No</td>
+    <td>Sí</td>
+    <td>Sí</td>
+  </tr>
+  <tr>
+    <td>Arquitectura de Memoria</td>
+    <td>Harvard (separada para instrucciones y datos)</td>
+    <td>Harvard (separada para instrucciones y datos)</td>
+    <td>Harvard (separada para instrucciones y datos)</td>
+  </tr>
+  <tr>
+    <td>Juego de Instrucciones</td>
+    <td>Thumb</td>
+    <td>Thumb</td>
+    <td>Thumb-2</td>
+  </tr>
+  <tr>
+    <td>Multiplicación en Hardware</td>
+    <td>No</td>
+    <td>No</td>
+    <td>Opcional (en algunos modelos)</td>
+  </tr>
+  <tr>
+    <td>División en Hardware</td>
+    <td>No</td>
+    <td>No</td>
+    <td>Opcional (en algunos modelos)</td>
+  </tr>
+</table>
 
 ## Ventajas del Conjunto de Instrucciones Thumb
 
