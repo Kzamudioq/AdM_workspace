@@ -89,7 +89,7 @@ La familia ARM Cortex-M es genial por varias razones:
   <li>Los "starter kits" son prácticamente regalados, lo que facilita empezar con estos microcontroladores.</li>
   <li>Finalmente, la depuración es una parte fundamental en el mundo de los microcontroladores, y la familia Cortex-M lo hace más accesible.</li>
 </ul>
-Estamos listos para explorar en detalle cada una de estas subfamilias. ¡Vamos a aprender más sobre los `Cortex-M0, M0+, M1, M3 y M4`! 🚀
+Estamos listos para explorar en detalle cada una de estas subfamilias. ¡Vamos a aprender más sobre los Cortex-M0, M0+, M1, M3 y M4! 🚀
 
 
 
