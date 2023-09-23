@@ -7,7 +7,7 @@
 ¡Hola a todos! Soy Lisa Simpson, estoy aquí para ayudarte a navegar por el fascinante mundo de los microprocesadores ARM y resolver este cuestionario. 
 
 <div class="center">
-  <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/67ba9f76-0e78-4c72-b221-bfcbd64c9453" width="300">
+  <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/67ba9f76-0e78-4c72-b221-bfcbd64c9453" width="500">
 </div>
 
 Vaya ! pantes de sumergirnos en las diferencias entre las familias Cortex, primero entendamos la importancia de estos pequeños pero poderosos dispositivos `los micros` 🤓🤓. Un microcontrolador es un pequeño dispositivo electrónico que integra un procesador, memoria y periféricos en un solo chip como se evidencia en la *Imagen de Esquema de bloques del microcontrolador*, su propósito principal es controlar, monitorear y ejecutar tareas en sistemas embebidos. 
