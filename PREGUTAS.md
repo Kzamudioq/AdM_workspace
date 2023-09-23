@@ -145,16 +145,16 @@ De esta manera podemos decir que, Cortex-🅰️ es ideal para dispositivos de a
 
 `Referencia:` [Comparación de las familias Cortex-M](https://developer.arm.com/ip-products/processors/cortex-m)
 
-En realidad, la familia Cortex-M está formada por distintas subfamilias que se adaptan a diferentes problemáticas. La anterior tabla resume las características de cada subfamilia, es muy interesante profundizar aquí en cada variante, destacando simplemente que los modelos M0 son menos potentes y requieren menos silicio para su fabricación y los M4 ofrecen mucho más rendimiento a costa de mayor superficie de silicio.
-La familia ARM Cortex-M proporciona beneficios como:
-
+<p><span style="color: purple;">¡Ay caramba!</span> Ahora que tenemos esta tabla, puedo explicarte un poco más sobre las subfamilias de los procesadores Cortex-M. Como ves, hay modelos como el Cortex-M0, que son menos potentes y requieren menos silicio, y luego están los M4, que ofrecen mucho más rendimiento a costa de ocupar más espacio.</p>
+<p>La familia ARM Cortex-M es genial por varias razones:</p>
 <ul>
-  <li>UNA arquitectura MUCHAS implementaciones. Cada fabricante añade su especialidad: automoción, aeroespacial, bajo consumo, FPGA, ...</li>
-  <li>Muchas herramientas hardware y software. Comerciales y libres. Emuladores, compiladores, IDEs, bibliotecas, ...</li>
-  <li>Comunidad muy activa: blogs, foros, proyectos (mbed, lpcxpresso, mapple, ...).</li>
-  <li>“Starter kits” prácticamente regalados.</li>
-  <li>Depuración, depuración, depuración ... esta característica es fundamental para dedicarse profesionalmente a los microcontroladores.</li>
+  <li>Una arquitectura, muchas implementaciones. Cada fabricante agrega su toque especial, como en automoción, aeroespacial, bajo consumo, FPGA y más.</li>
+  <li>Un montón de herramientas, tanto de hardware como de software. Hay emuladores, compiladores, IDEs, bibliotecas y más, ¡algunas son incluso gratuitas!</li>
+  <li>¡Una comunidad superactiva! Hay blogs, foros y proyectos interesantes como mbed, lpcxpresso y mapple.</li>
+  <li>Los "starter kits" son prácticamente regalados, lo que facilita empezar con estos microcontroladores.</li>
+  <li>Finalmente, la depuración es una parte fundamental en el mundo de los microcontroladores, y la familia Cortex-M lo hace más accesible.</li>
 </ul>
+<p>Estamos listos para explorar en detalle cada una de estas subfamilias. ¡Vamos a aprender más sobre los Cortex-M0, M0+, M1, M3 y M4! 🚀</p>
 
 ¡Estamos listos para explorar en detalle cada una de estas subfamilias! 🚀
 
