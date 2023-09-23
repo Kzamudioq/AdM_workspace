@@ -25,21 +25,21 @@ Estoy emocionada de ayudarte a comprender las familias de microprocesadores de �
 
 ### Cortex-🅰️ 
 Los procesadores Cortex-A están diseñados para dispositivos Linux y Android, desde relojes inteligentes hasta equipos de red. Aquí tienes algunas características clave:
-- Los procesadores Cortex-A (A5, A7, A8, A9, A12, A15 y A17) se basan en la arquitectura ARMv7-A.
+- Los procesadores Cortex-A `(A5, A7, A8, A9, A12, A15 y A17)` se basan en la arquitectura ARMv7-A.
 - Ofrecen un máximo rendimiento y eficiencia energética, ideales para una variedad de dispositivos.
-- Ejemplos de procesadores: Cortex-A7 para tabletas y teléfonos inteligentes sensibles al costo, Cortex-A15 para dispositivos de gama alta.
+- `Ejemplos de procesadores:` Cortex-A7 para tabletas y teléfonos inteligentes sensibles al costo, Cortex-A15 para dispositivos de gama alta.
 
 ### Cortex-🆁
 Los procesadores Cortex-R son ideales para aplicaciones en tiempo real de alto rendimiento, como sistemas automotrices y más. Algunos ejemplos incluyen:
-- Cortex-R4: ideal para aplicaciones automotrices, con baja latencia y sincronización de hasta 600 MHz.
-- Cortex-R5: ofrece mayor eficiencia y gestión de errores mejorada, ideal para respuestas en tiempo real.
-- Cortex-R7: mayor rendimiento con canalización de 11 etapas y soporte para multiprocesamiento simétrico y asimétrico.
+- `Cortex-R4:` ideal para aplicaciones automotrices, con baja latencia y sincronización de hasta 600 MHz.
+- `Cortex-R5:` ofrece mayor eficiencia y gestión de errores mejorada, ideal para respuestas en tiempo real.
+- `Cortex-R7:` mayor rendimiento con canalización de 11 etapas y soporte para multiprocesamiento simétrico y asimétrico.
 
 ### Cortex-🅼
 Cortex-M está diseñado para microcontroladores (MCU) y se adapta a una variedad de aplicaciones. Aquí están los aspectos más destacados:
 - Los procesadores Cortex-M se utilizan en MCU con memorias, relojes y periféricos integrados.
-- Cortex-M0+: utiliza el conjunto de instrucciones Thumb-2 y es eficiente en energía.
-- Cortex-M3 y M4: ofrecen un rendimiento sólido, con Cortex-M4 destacando en DSP y punto flotante.
+- `Cortex-M0+:` utiliza el conjunto de instrucciones Thumb-2 y es eficiente en energía.
+- `Cortex-M3 y M4:` ofrecen un rendimiento sólido, con Cortex-M4 destacando en DSP y punto flotante.
 
 De esta manera podemos decir que, Cortex-🅰️ es ideal para dispositivos de alto rendimiento, Cortex-🆁 es perfecto para aplicaciones en tiempo real y Cortex-🅼 se adapta a una amplia gama de aplicaciones, desde eficiencia energética hasta rendimiento sólido. ¡Espero que esta guía te haya ayudado a comprender mejor estas familias de procesadores ARM! 😄
 
