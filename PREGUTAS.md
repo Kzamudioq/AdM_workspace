@@ -52,7 +52,7 @@ En resumen, Cortex-🅰️ es ideal para dispositivos de alto rendimiento, Corte
   <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/67ba9f76-0e78-4c72-b221-bfcbd64c9453" width="300">
 </div>
 
-## Diferencias Entre las Familias Cortex-M
+## Diferencias Entre las Familias Cortex-<span style="color: blue;">🅼</span>
 
 🧠 ¡Claro! En el mundo de los microprocesadores ARM, las familias `Cortex-M0, M3 y M4` tienen sus propias peculiaridades. El `Cortex-M0` es simple y eficiente en energía, ideal para aplicaciones con recursos limitados, en `Cortex-M3` se obtiene un rendimiento más sólido y se adapta bien a una variedad de aplicaciones, mientras que el `Cortex-M4` es similar al M3 pero agrega capacidades de procesamiento de señales digitales (DSP) y punto flotante, lo que lo hace excelente para aplicaciones que requieren un procesamiento intensivo.💡
 
