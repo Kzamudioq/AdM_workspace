@@ -16,6 +16,15 @@ The background color is `#RRGGBB` for light mode and `#0969DA` for dark mode.
 > [!WARNING]
 > Critical content demanding immediate user attention due to potential risks.
 
+
+`línea de código`
+
+```php
+<?php
+  echo "fragmento largo de código";
+?>
+```
+
 Durante esta aventura, exploraremos juntos las respuestas a las preguntas orientadoras y aprenderemos más sobre los microprocesadores ARM. ¡Así que, prepárate para sumergirte en el conocimiento y la diversión!
 
 <div class="center">
