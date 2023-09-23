@@ -20,23 +20,12 @@ Durante esta aventura, exploraremos juntos las respuestas a las preguntas orient
 
 | Familia de Procesadores        | Características Clave                                      | Aplicaciones Principales  |
 | ------------------------------ | :--------------------------------------------------------: | ------------------------- |
-| **Cortex M0**                  | Diseñado para eficiencia energética y bajo costo.         | Sistemas embebidos con recursos limitados. |
-|                                | Arquitectura simple y compacta.                            | Sensores, dispositivos IoT. |
+| **Cortex M0**                  | Diseñado para eficiencia energética y bajo costo. Arquitectura simple y compacta.         | Sistemas embebidos con recursos limitados. Sensores, dispositivos IoT.|
 | **Cortex M3**                  | Equilibrio entre eficiencia y rendimiento.                | Aplicaciones en tiempo real. |
 |                                | Soporte para interrupciones y multitarea.                  | Controladores de dispositivos. |
 | **Cortex M4**                  | Similar al M3 pero con capacidades de DSP y punto flotante. | Aplicaciones de procesamiento intensivo. |
 |                                | Adecuado para aplicaciones de control y procesamiento de señales. | Robótica, sistemas de audio. |
 
-| Familia de Procesadores | Características Clave | Aplicaciones Principales |
-|------------------------|-----------------------|--------------------------|
-| Cortex M0              | - Diseñado para la eficiencia energética y el bajo costo. | - Sistemas embebidos con recursos limitados. |
-|                        | - Arquitectura simple y compacta.                      | - Sensores, dispositivos IoT.              |
-|------------------------|-----------------------|--------------------------|
-| Cortex M3              | - Ofrece un equilibrio entre eficiencia y rendimiento.  | - Aplicaciones en tiempo real.            |
-|                        | - Soporte para interrupciones y multitarea.            | - Controladores de dispositivos.         |
-|------------------------|-----------------------|--------------------------|
-| Cortex M4              | - Similar al M3 pero con capacidades de DSP y punto flotante. | - Aplicaciones que requieren procesamiento intensivo. |
-|                        | - Adecuado para aplicaciones de control y procesamiento de señales. | - Robótica, sistemas de audio. |
 
 
 Referencia: [ARM Architectures](https://developer.arm.com/architectures)
