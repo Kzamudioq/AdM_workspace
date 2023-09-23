@@ -157,7 +157,7 @@ Luego, realizamos las operaciones matemáticas y lógicas que necesitamos en nue
 🧠`La arquitectura load-store nos ayuda a ser organizados y eficientes, ya que todas nuestras operaciones de datos ocurren en nuestros registros generales, lo que hace que todo sea más rápido y eficiente.` 💡
 
 <div class="center">
-  <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/49bf9fdf-23de-427c-ad74-9699a55909b2" width="800">
+  <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/49bf9fdf-23de-427c-ad74-9699a55909b2" width="300">
 </div>
 
 Recuerda que en esta arquitectura, no realizamos operaciones de datos directamente en la memoria principal; todo pasa por nuestros registros. ¡Es como una coreografía de baile perfectamente coordinada! 💃💻
