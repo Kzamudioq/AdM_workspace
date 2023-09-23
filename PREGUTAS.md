@@ -1,15 +1,3 @@
-<style>
-  p {
-    text-align: justify;
-  }
-  .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-</style>
-
-
 # :star: Lisa Simpson te guía: Resolución del Cuestionario :star:
 
 
