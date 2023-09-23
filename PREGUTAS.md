@@ -43,7 +43,7 @@ Durante esta aventura, exploraremos juntos las respuestas a las preguntas orient
 
 
 
-`Referencia: [ARM Architectures](https://developer.arm.com/architectures)`
+`Referencia`: [ARM Architectures](https://developer.arm.com/architectures)
 
 ## Diferencias Entre las Familias Cortex-M
 
@@ -143,7 +143,7 @@ Durante esta aventura, exploraremos juntos las respuestas a las preguntas orient
   </tr>
 </table>
 
-`Referencia: [Comparación de las familias Cortex-M](https://developer.arm.com/ip-products/processors/cortex-m)`
+`Referencia:` [Comparación de las familias Cortex-M](https://developer.arm.com/ip-products/processors/cortex-m)
 
 ## Ventajas del Conjunto de Instrucciones Thumb
 
