@@ -13,7 +13,7 @@
 
 ## 🧠 ¿Qué es un microconrolado? 🧠
 
-<img align="right" width="47%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/466c6c44-d85b-43ae-bdda-a748411061ca"> 
+<img align="right" width="42%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/466c6c44-d85b-43ae-bdda-a748411061ca"> 
 
 Vaya, antes de zambullirnos en las diferencias entre las familias Cortex y todo lo relacionado con la arquitectura de los "micros", primero, ¡necesitamos entender la importancia de estos pequeños pero poderosos dispositivos! 😄
 
