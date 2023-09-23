@@ -4,6 +4,7 @@
 
 Durante esta aventura, exploraremos juntos las respuestas a las preguntas orientadoras y aprenderemos más sobre los microprocesadores ARM. ¡Así que, prepárate para sumergirte en el conocimiento y la diversión!
 
-![Lisa](https://github.com/Kzamudioq/AdM_workspace/assets/138271936/dc9ac965-b5bc-46d9-b4dd-943f6cc59525)
+![image](https://github.com/Kzamudioq/AdM_workspace/assets/138271936/1a830057-a061-4cff-a87d-26a2a5e03a2a)
+
 
 
