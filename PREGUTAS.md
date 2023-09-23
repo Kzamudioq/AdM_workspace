@@ -142,9 +142,10 @@ De esta manera podemos decir que, Cortex-🅰️ es ideal para dispositivos de a
   </tr>
 </table>
 
-<p>En realidad, la familia Cortex-M está formada por distintas subfamilias que se adaptan a diferentes problemáticas. La anterior tabla resume las características de cada subfamilia, es muy interesante profundizar aquí en cada variante, destacando simplemente que los modelos M0 son menos potentes y requieren menos silicio para su fabricación y los M4 ofrecen mucho más rendimiento a costa de mayor superficie de silicio.</p>
+`Referencia:` [Comparación de las familias Cortex-M](https://developer.arm.com/ip-products/processors/cortex-m)
 
-<p>La familia ARM Cortex-M proporciona beneficios como:</p>
+En realidad, la familia Cortex-M está formada por distintas subfamilias que se adaptan a diferentes problemáticas. La anterior tabla resume las características de cada subfamilia, es muy interesante profundizar aquí en cada variante, destacando simplemente que los modelos M0 son menos potentes y requieren menos silicio para su fabricación y los M4 ofrecen mucho más rendimiento a costa de mayor superficie de silicio.
+La familia ARM Cortex-M proporciona beneficios como:
 
 <ul>
   <li>UNA arquitectura MUCHAS implementaciones. Cada fabricante añade su especialidad: automoción, aeroespacial, bajo consumo, FPGA, ...</li>
@@ -154,97 +155,8 @@ De esta manera podemos decir que, Cortex-🅰️ es ideal para dispositivos de a
   <li>Depuración, depuración, depuración ... esta característica es fundamental para dedicarse profesionalmente a los microcontroladores.</li>
 </ul>
 
-<p>¡Estamos listos para explorar en detalle cada una de estas subfamilias! 🚀</p>
+¡Estamos listos para explorar en detalle cada una de estas subfamilias! 🚀
 
-
-<table style="background-color: #FFFF99; border-collapse: collapse; width: 80%; margin: auto;">
-  <tr style="background-color: #FFCC00; color: white;">
-    <th>Característica</th>
-    <th>Cortex M0</th>
-    <th>Cortex M3</th>
-    <th>Cortex M4</th>
-  </tr>
-  <tr>
-    <td>Eficiencia Energética</td>
-    <td>Alta eficiencia energética</td>
-    <td>Buena eficiencia energética</td>
-    <td>Buena eficiencia energética</td>
-  </tr>
-  <tr>
-    <td>Arquitectura</td>
-    <td>Simple y compacta</td>
-    <td>Moderadamente compleja</td>
-    <td>Moderadamente compleja</td>
-  </tr>
-  <tr>
-    <td>Soporte para Punto Flotante</td>
-    <td>No</td>
-    <td>No</td>
-    <td>Sí</td>
-  </tr>
-  <tr>
-    <td>DSP</td>
-    <td>No</td>
-    <td>No</td>
-    <td>Sí</td>
-  </tr>
-  <tr>
-    <td>FPU (Unidad de Punto Flotante)</td>
-    <td>No</td>
-    <td>No</td>
-    <td>Opcional (en algunos modelos)</td>
-  </tr>
-  <tr>
-    <td>Multitarea</td>
-    <td>No</td>
-    <td>Sí</td>
-    <td>Sí</td>
-  </tr>
-  <tr>
-    <td>Interrupciones</td>
-    <td>Limitado</td>
-    <td>Sí</td>
-    <td>Sí</td>
-  </tr>
-  <tr>
-    <td>Systick Timer</td>
-    <td>No</td>
-    <td>Sí</td>
-    <td>Sí</td>
-  </tr>
-  <tr>
-    <td>Bit-Banding</td>
-    <td>No</td>
-    <td>Sí</td>
-    <td>Sí</td>
-  </tr>
-  <tr>
-    <td>Memoria de Protección de Región (MPU)</td>
-    <td>No</td>
-    <td>Sí</td>
-    <td>Sí</td>
-  </tr>
-  <tr>
-    <td>Arquitectura de Memoria</td>
-    <td>Harvard (separada para instrucciones y datos)</td>
-    <td>Harvard (separada para instrucciones y datos)</td>
-    <td>Harvard (separada para instrucciones y datos)</td>
-  </tr>
-  <tr>
-    <td>Juego de Instrucciones</td>
-    <td>Thumb</td>
-    <td>Thumb</td>
-    <td>Thumb-2</td>
-  </tr>
-  <tr>
-    <td>Multiplicación en Hardware</td>
-    <td>No</td>
-    <td>No</td>
-    <td>Opcional (en algunos modelos)</td>
-  </tr>
-</table>
-
-`Referencia:` [Comparación de las familias Cortex-M](https://developer.arm.com/ip-products/processors/cortex-m)
 
 ## 2. Ventajas del Conjunto de Instrucciones Thumb
 
