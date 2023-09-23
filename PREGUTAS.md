@@ -11,7 +11,7 @@ Durante esta aventura, exploraremos juntos las respuestas a las preguntas orient
 @Kzamudio ¿Qué te parece el repositorio? ¡Está chido! :+1:
 
 <div class="center">
-  <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/2162ff14-54d6-4734-abef-2d290409e292" alt="Lisa Simpson" width="500">
+  <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/2162ff14-54d6-4734-abef-2d290409e292" alt="Lisa Simpson" width="300">
 </div>
 
 ## Familias de Microprocesadores ARM
