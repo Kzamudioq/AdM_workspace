@@ -68,11 +68,13 @@ Cortex-M está diseñado para microcontroladores (MCU) y se adapta a una varieda
 
 De esta manera podemos decir que, Cortex-🅰️ es ideal para dispositivos de alto rendimiento, Cortex-🆁 es perfecto para aplicaciones en tiempo real y Cortex-🅼 se adapta a una amplia gama de aplicaciones, desde eficiencia energética hasta rendimiento sólido. ¡Espero que esta guía te haya ayudado a comprender mejor estas familias de procesadores ARM! 😄
 
+`Referencia`: [ARM Architectures](https://developer.arm.com/architectures)
+
 <p align="center" width="100%">
-    <img width="50%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/2162ff14-54d6-4734-abef-2d290409e292"> 
+    <img width="30%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/2162ff14-54d6-4734-abef-2d290409e292"> 
 </p>
 
-`Referencia`: [ARM Architectures](https://developer.arm.com/architectures)
+
 
 ## 1. Diferencias Entre las Familias Cortex-<span style="color: blue;">🅼</span>
 
