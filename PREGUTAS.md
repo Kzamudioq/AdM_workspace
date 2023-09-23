@@ -7,6 +7,15 @@ The background color is `#RRGGBB` for light mode and `#0969DA` for dark mode.
 
 @octocat :+1: This PR looks great - it's ready to merge! :shipit:
 
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
+
+> [!IMPORTANT]
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]
+> Critical content demanding immediate user attention due to potential risks.
+
 Durante esta aventura, exploraremos juntos las respuestas a las preguntas orientadoras y aprenderemos más sobre los microprocesadores ARM. ¡Así que, prepárate para sumergirte en el conocimiento y la diversión!
 
 <div class="center">
