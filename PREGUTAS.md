@@ -20,6 +20,23 @@ Durante esta aventura, exploraremos juntos las respuestas a las preguntas orient
 
 ¡Hola! Soy Lisa Simpson y estoy emocionada de ayudarte a comprender las familias de microprocesadores de ARM. Las familias principales son `Cortex-A`, `Cortex-R` y `Cortex-M`, cada una tiene un propósito distinto, en `Cortex-A` se destaca en el rendimiento y se encuentra en dispositivos como smartphones, para `Cortex-R` el enfoca es dado en aplicaciones en tiempo real, como sistemas de control, por último, `Cortex-M` es ideal para sistemas embebidos de baja potencia, como sensores y dispositivos IoT. De esta manera, es favorable indicar que las diferencias clave incluyen `la potencia de procesamiento y el conjunto de características`, lo que permite adaptarlos a diversas aplicaciones.
 
+
+
+![ARM](https://github.com/Kzamudioq/AdM_workspace/assets/138271936/3aca75fe-7193-4865-8a8a-b8366e5ab485)
+
+
+`Referencia`: [ARM Architectures](https://developer.arm.com/architectures)
+
+
+<div class="center">
+  <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/67ba9f76-0e78-4c72-b221-bfcbd64c9453" width="300">
+</div>
+
+## Diferencias Entre las Familias Cortex-M
+
+🧠 ¡Claro! En el mundo de los microprocesadores ARM, las familias `Cortex-M0, M3 y M4` tienen sus propias peculiaridades. El `Cortex-M0` es simple y eficiente en energía, ideal para aplicaciones con recursos limitados, en `Cortex-M3` se obtiene un rendimiento más sólido y se adapta bien a una variedad de aplicaciones, mientras que el `Cortex-M4` es similar al M3 pero agrega capacidades de procesamiento de señales digitales (DSP) y punto flotante, lo que lo hace excelente para aplicaciones que requieren un procesamiento intensivo.💡
+
+
 <table style="background-color: #FFFF99; border-collapse: collapse; width: 80%; margin: auto;">
   <tr style="background-color: #FFCC00; color: white;">
     <th>Familia de Procesadores</th>
@@ -44,17 +61,6 @@ Durante esta aventura, exploraremos juntos las respuestas a las preguntas orient
 </table>
 
 
-
-`Referencia`: [ARM Architectures](https://developer.arm.com/architectures)
-
-
-<div class="center">
-  <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/67ba9f76-0e78-4c72-b221-bfcbd64c9453" width="300">
-</div>
-
-## Diferencias Entre las Familias Cortex-M
-
-🧠 ¡Claro! En el mundo de los microprocesadores ARM, las familias `Cortex-M0, M3 y M4` tienen sus propias peculiaridades. El `Cortex-M0` es simple y eficiente en energía, ideal para aplicaciones con recursos limitados, en `Cortex-M3` se obtiene un rendimiento más sólido y se adapta bien a una variedad de aplicaciones, mientras que el `Cortex-M4` es similar al M3 pero agrega capacidades de procesamiento de señales digitales (DSP) y punto flotante, lo que lo hace excelente para aplicaciones que requieren un procesamiento intensivo.💡
 
 
 <table style="background-color: #FFFF99; border-collapse: collapse; width: 80%; margin: auto;">
