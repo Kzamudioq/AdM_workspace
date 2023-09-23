@@ -142,11 +142,9 @@ De esta manera podemos decir que, Cortex-🅰️ es ideal para dispositivos de a
   </tr>
 </table>
 
-<p>La tabla nos proporciona una visión general de las características de cada modelo de la familia Cortex-M. Como podrás ver, ahora hemos añadido la columna "Como Flotante" para indicar si el modelo tiene soporte para operaciones de punto flotante.</p>
+<p>En realidad, la familia Cortex-M está formada por distintas subfamilias que se adaptan a diferentes problemáticas. La anterior tabla resume las características de cada subfamilia, es muy interesante profundizar aquí en cada variante, destacando simplemente que los modelos M0 son menos potentes y requieren menos silicio para su fabricación y los M4 ofrecen mucho más rendimiento a costa de mayor superficie de silicio.</p>
 
-<p>En realidad, la familia Cortex-M está formada por distintas subfamilias que se adaptan a diferentes problemáticas. La tabla 1.1 resume las características de cada subfamilia. No es interesante profundizar aquí en cada variante, destacando simplemente que los modelos M0 son menos potentes y requieren menos silicio para su fabricación y los M4 ofrecen mucho más rendimiento a costa de mayor superficie de silicio.</p>
-
-<p>Este libro trata de la familia ARM Cortex-M, que proporciona beneficios como:</p>
+<p>La familia ARM Cortex-M proporciona beneficios como:</p>
 
 <ul>
   <li>UNA arquitectura MUCHAS implementaciones. Cada fabricante añade su especialidad: automoción, aeroespacial, bajo consumo, FPGA, ...</li>
@@ -157,33 +155,6 @@ De esta manera podemos decir que, Cortex-🅰️ es ideal para dispositivos de a
 </ul>
 
 <p>¡Estamos listos para explorar en detalle cada una de estas subfamilias! 🚀</p>
-
-
-
-<table style="background-color: #FFFF99; border-collapse: collapse; width: 80%; margin: auto;">
-  <tr style="background-color: #FFCC00; color: white;">
-    <th>Familia de Procesadores</th>
-    <th>Características Clave</th>
-    <th>Aplicaciones Principales</th>
-  </tr>
-  <tr>
-    <td><strong>Cortex M0</strong></td>
-    <td>Diseñado para eficiencia energética y bajo costo. Arquitectura simple y compacta.</td>
-    <td>Sistemas embebidos con recursos limitados. Sensores, dispositivos IoT.</td>
-  </tr>
-  <tr>
-    <td><strong>Cortex M3</strong></td>
-    <td>Equilibrio entre eficiencia y rendimiento. Soporte para interrupciones y multitarea.</td>
-    <td>Aplicaciones en tiempo real. Controladores de dispositivos.</td>
-  </tr>
-  <tr>
-    <td><strong>Cortex M4</strong></td>
-    <td>Similar al M3 pero con capacidades de DSP y punto flotante. Adecuado para aplicaciones de control y procesamiento de señales.</td>
-    <td>Aplicaciones de procesamiento intensivo. Robótica, sistemas de audio.</td>
-  </tr>
-</table>
-
-
 
 
 <table style="background-color: #FFFF99; border-collapse: collapse; width: 80%; margin: auto;">
