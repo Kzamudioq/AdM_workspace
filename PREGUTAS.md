@@ -13,13 +13,13 @@
 
 ## 🧠 ¿Qué es un microconrolado? 🧠
 
-<img align="right" width="50%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/466c6c44-d85b-43ae-bdda-a748411061ca"> 
+<img align="right" width="70%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/466c6c44-d85b-43ae-bdda-a748411061ca"> 
 
 Vaya, antes de zambullirnos en las diferencias entre las familias Cortex y todo lo relacionado con la arquitectura de los "micros", primero, ¡necesitamos entender la importancia de estos pequeños pero poderosos dispositivos! 😄
 
-Imagina, un microcontrolador es como el cerebro y el corazón de muchos sistemas electrónicos. Es un pequeño dispositivo electrónico que cabe en la palma de tu mano, pero no subestimes su capacidad. Este pequeño prodigio integra un procesador, memoria y periféricos en un solo chip, como puedes ver en la Imagen de Esquema de bloques del microcontrolador.
+Imagina, un microcontrolador es como el cerebro y el corazón de muchos sistemas electrónicos. Es un pequeño dispositivo electrónico que cabe en la palma de tu mano, pero no subestimes su capacidad. Este pequeño prodigio integra un procesador, memoria y periféricos en un solo chip, como puedes ver en la *imagen de esquema de bloques del microcontrolador citada desde [este enlace](https://www.disca.upv.es/aperles/arm_cortex_m3/llibre/libro-ARM-Cortex-M.pdf).*.
 
-*Imagen de esquema de bloques del microcontrolador citada desde [este enlace](https://www.disca.upv.es/aperles/arm_cortex_m3/llibre/libro-ARM-Cortex-M.pdf).*
+
 
 ¿Y cuál es su misión principal? Bueno, su propósito es controlar, monitorear y ejecutar tareas en sistemas embebidos. En otras palabras, estos diminutos héroes electrónicos son los encargados de hacer funcionar todo, desde tu lavadora y secadora, hasta tu teléfono inteligente y tu reloj digital. Sin ellos, la mayoría de los dispositivos que usamos a diario simplemente no funcionarían.
 
