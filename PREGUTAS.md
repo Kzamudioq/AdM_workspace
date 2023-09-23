@@ -1,14 +1,6 @@
 @Kzamudio ¿Qué te parece el repositorio? ¡Está chido! :+1:
 
 
-**Align right (works fine):**
-
-<img align="right" width="33%" src="https://i.stack.imgur.com/RJj4x.png"> 
-
-[Arduino](https://en.wikipedia.org/wiki/Arduino) (/ɑːrˈdwiːnoʊ/) is an open-source hardware and software company, project and user community that designs and manufactures single-board microcontrollers and microcontroller kits for building digital devices. Its hardware products are licensed under a CC-BY-SA license, while software is licensed under the GNU Lesser General Public License (LGPL) or the GNU General Public License (GPL),[1] permitting the manufacture of Arduino boards and software distribution by anyone. Arduino boards are available commercially from the official website or through authorized distributors. Arduino board designs use a variety of microprocessors and controllers. The boards are equipped with sets of digital and analog input/output (I/O) pins that may be interfaced to various expansion boards ('shields') or breadboards (for prototyping) and other circuits.
-
-
-
 # :star: Lisa Simpson te guía: resolución del Cuestionario :star:
 
 
@@ -23,7 +15,7 @@
 Vaya ! antes de sumergirnos en las diferencias entre las familias Cortex y todo lo relacionado a la acrquitectura de `micros`, primero entendamos la importancia de estos pequeños pero poderosos dispositivos 🤓🤓. Un microcontrolador es un pequeño dispositivo electrónico que integra un procesador, memoria y periféricos en un solo chip como se evidencia en la *Imagen de Esquema de bloques del microcontrolador*, su propósito principal es controlar, monitorear y ejecutar tareas en sistemas embebidos. 
 
 
-<p align="center" width="100%">
+<p align="center" width="200%">
     <img width="33%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/466c6c44-d85b-43ae-bdda-a748411061ca"> 
 </p>
 
@@ -46,6 +38,11 @@ Vaya ! antes de sumergirnos en las diferencias entre las familias Cortex y todo 
 
 
 Estoy emocionada de ayudarte a comprender las familias de microprocesadores de 🅰️🆁🅼. Las familias principales son `Cortex-A`, `Cortex-R` y `Cortex-M`, cada una tiene un propósito distinto, en `Cortex-A` se destaca en el rendimiento y se encuentra en dispositivos como smartphones, para `Cortex-R` el enfoca es dado en aplicaciones en tiempo real, como sistemas de control, por último, `Cortex-M` es ideal para sistemas embebidos de baja potencia, como sensores y dispositivos IoT. De esta manera, es favorable indicar que las diferencias clave incluyen `la potencia de procesamiento y el conjunto de características`, lo que permite adaptarlos a diversas aplicaciones.
+
+
+<img align="right" width="33%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/adb5c11f-1ac9-4721-8ac3-b29000a83795"> 
+
+[Arduino](https://developer.arm.com/architectures) Estoy emocionada de ayudarte a comprender las familias de microprocesadores de 🅰️🆁🅼. Las familias principales son `Cortex-A`, `Cortex-R` y `Cortex-M`, cada una tiene un propósito distinto, en `Cortex-A` se destaca en el rendimiento y se encuentra en dispositivos como smartphones, para `Cortex-R` el enfoca es dado en aplicaciones en tiempo real, como sistemas de control, por último, `Cortex-M` es ideal para sistemas embebidos de baja potencia, como sensores y dispositivos IoT. De esta manera, es favorable indicar que las diferencias clave incluyen `la potencia de procesamiento y el conjunto de características`, lo que permite adaptarlos a diversas aplicaciones.
 
 
 <p align="center" width="100%">
