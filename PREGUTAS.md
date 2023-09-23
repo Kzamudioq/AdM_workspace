@@ -5,7 +5,7 @@ The background color is `#RRGGBB` for light mode and `#0969DA` for dark mode.
 
 ¡Hola a todos! Soy Lisa Simpson y estoy aquí para ayudarte a navegar por el fascinante mundo de los microprocesadores ARM y resolver este cuestionario. Si alguna vez te has preguntado sobre las diferencias entre las familias Cortex-M, el set de instrucciones Thumb o la arquitectura load-store, ¡has venido al lugar correcto!
 
-@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+@Kzamudio ¿Qué te parece el repositorio? ¡Está chido! :+1:
 
 > [!NOTA]
 > Highlights information that users should take into account, even when skimming.
