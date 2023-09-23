@@ -14,8 +14,7 @@ Durante esta aventura, exploraremos juntos las respuestas a las preguntas orient
   <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/2162ff14-54d6-4734-abef-2d290409e292" alt="Lisa Simpson" width="300">
 </div>
 
-## Familias de Microprocesadores ARM
-
+## Familias de Microprocesadores 🅰️🆁🅼
 
 
 Estoy emocionada de ayudarte a comprender las familias de microprocesadores de ARM. Las familias principales son `Cortex-A`, `Cortex-R` y `Cortex-M`, cada una tiene un propósito distinto, en `Cortex-A` se destaca en el rendimiento y se encuentra en dispositivos como smartphones, para `Cortex-R` el enfoca es dado en aplicaciones en tiempo real, como sistemas de control, por último, `Cortex-M` es ideal para sistemas embebidos de baja potencia, como sensores y dispositivos IoT. De esta manera, es favorable indicar que las diferencias clave incluyen `la potencia de procesamiento y el conjunto de características`, lo que permite adaptarlos a diversas aplicaciones.
@@ -25,25 +24,25 @@ Estoy emocionada de ayudarte a comprender las familias de microprocesadores de A
 *Imagen de ARM citada desde [este enlace](https://www.orientdisplay.com/es/how-to-select-arm-processors/).*
 
 
-## Cortex-A
+## Cortex-🅰️ 
 Los procesadores Cortex-A están diseñados para dispositivos Linux y Android, desde relojes inteligentes hasta equipos de red. Aquí tienes algunas características clave:
 - Los procesadores Cortex-A (A5, A7, A8, A9, A12, A15 y A17) se basan en la arquitectura ARMv7-A.
 - Ofrecen un máximo rendimiento y eficiencia energética, ideales para una variedad de dispositivos.
 - Ejemplos de procesadores: Cortex-A7 para tabletas y teléfonos inteligentes sensibles al costo, Cortex-A15 para dispositivos de gama alta.
 
-## Cortex-R
+## Cortex-🆁
 Los procesadores Cortex-R son ideales para aplicaciones en tiempo real de alto rendimiento, como sistemas automotrices y más. Algunos ejemplos incluyen:
 - Cortex-R4: Ideal para aplicaciones automotrices, con baja latencia y sincronización de hasta 600 MHz.
 - Cortex-R5: Ofrece mayor eficiencia y gestión de errores mejorada, ideal para respuestas en tiempo real.
 - Cortex-R7: Mayor rendimiento con canalización de 11 etapas y soporte para multiprocesamiento simétrico y asimétrico.
 
-## Cortex-M
+## Cortex-🅼
 Cortex-M está diseñado para microcontroladores (MCU) y se adapta a una variedad de aplicaciones. Aquí están los aspectos más destacados:
 - Los procesadores Cortex-M se utilizan en MCU con memorias, relojes y periféricos integrados.
 - Cortex-M0+: Utiliza el conjunto de instrucciones Thumb-2 y es eficiente en energía.
 - Cortex-M3 y M4: Ofrecen un rendimiento sólido, con Cortex-M4 destacando en DSP y punto flotante.
 
-En resumen, Cortex-A es ideal para dispositivos de alto rendimiento, Cortex-R es perfecto para aplicaciones en tiempo real y Cortex-M se adapta a una amplia gama de aplicaciones, desde eficiencia energética hasta rendimiento sólido. ¡Espero que esta guía te haya ayudado a comprender mejor estas familias de procesadores ARM! 😄
+En resumen, Cortex-🅰️ es ideal para dispositivos de alto rendimiento, Cortex-🆁 es perfecto para aplicaciones en tiempo real y Cortex-🅼 se adapta a una amplia gama de aplicaciones, desde eficiencia energética hasta rendimiento sólido. ¡Espero que esta guía te haya ayudado a comprender mejor estas familias de procesadores ARM! 😄
 
 
 `Referencia`: [ARM Architectures](https://developer.arm.com/architectures)
