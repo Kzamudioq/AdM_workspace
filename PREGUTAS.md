@@ -96,7 +96,7 @@ La familia ARM Cortex-M es genial por varias razones:
 </ul>
 Estamos listos para explorar en detalle cada una de estas subfamilias. ¡Vamos a aprender más sobre los Cortex-M0, M0+, M1, M3 y M4! 🚀 ¡Comencemos!
 
-### Cortex-M0 🌟
+### 1.1. Cortex-M0 🌟
 
 El Cortex-M0 es como el miembro pequeño pero poderoso de la familia. Está diseñado para ser eficiente en términos de energía y es una opción económica. Su arquitectura es simple y compacta, lo que lo hace ideal para sistemas embebidos con recursos limitados, como sensores y dispositivos IoT. Si buscas un microcontrolador que haga el trabajo sin gastar demasiada energía, el Cortex-M0 es una excelente elección.
 
@@ -104,7 +104,7 @@ El Cortex-M0 es como el miembro pequeño pero poderoso de la familia. Está dise
 
 Imagina un termostato inteligente en tu hogar que ajusta automáticamente la temperatura. El Cortex-M0 podría estar dentro de un sensor de temperatura que mide constantemente la temperatura ambiente. Es eficiente en energía para prolongar la duración de la batería y lo suficientemente potente para realizar cálculos de control de temperatura.
 
-### Cortex-M0+ 💡
+### 1.2. Cortex-M0+ 💡
 
 Similar al M0 pero con mejoras en eficiencia y rendimiento. Es como el M0 pero un poco más fuerte. Es una excelente elección para aplicaciones en tiempo real y dispositivos de bajo consumo. Si necesitas un rendimiento un poco más alto sin sacrificar la eficiencia energética, el Cortex-M0+ es tu opción.
 
@@ -112,7 +112,7 @@ Similar al M0 pero con mejoras en eficiencia y rendimiento. Es como el M0 pero u
 
 En una pulsera inteligente que rastrea tu actividad física, el Cortex-M0+ podría gestionar las mediciones de ritmo cardíaco, pasos y distancia recorrida. Su eficiencia energética permite que la pulsera funcione durante días sin necesidad de recarga, y su rendimiento es suficiente para procesar datos en tiempo real.
 
-### Cortex-M1 🤖
+### 1.3. Cortex-M1 🤖
 
 El Cortex-M1 se enfoca en el control lógico programable (PLC) y se utiliza principalmente en aplicaciones FPGA. Si estás en el mundo de la automatización industrial y necesitas un procesador que se adapte perfectamente a sistemas lógicos programables, el Cortex-M1 es la elección.
 
@@ -120,7 +120,7 @@ El Cortex-M1 se enfoca en el control lógico programable (PLC) y se utiliza prin
 
 En una máquina de fabricación industrial, el Cortex-M1 podría ser parte del controlador lógico programable (PLC). Se encargaría de coordinar las diferentes partes de la máquina, asegurando que cada componente funcione en el momento adecuado y en la secuencia correcta.
 
-### Cortex-M3 🏁
+### 1.4. Cortex-M3 🏁
 
 El Cortex-M3 ofrece un equilibrio impresionante entre eficiencia y rendimiento. Tiene soporte para interrupciones y multitarea, lo que lo hace ideal para aplicaciones en tiempo real y controladores de dispositivos. Si buscas un procesador que pueda manejar tareas complejas y mantener la eficiencia, el Cortex-M3 es la respuesta.
 
@@ -128,7 +128,7 @@ El Cortex-M3 ofrece un equilibrio impresionante entre eficiencia y rendimiento. 
 
 En un vehículo autónomo, el Cortex-M3 podría ser responsable de gestionar las entradas de sensores, como cámaras y lidar, y tomar decisiones en tiempo real para mantener el vehículo seguro y en la carretera. Su capacidad de multitarea lo hace ideal para esta tarea.
 
-### Cortex-M4 🎯
+### 1.5. Cortex-M4 🎯
 
 Similar al M3, pero con una ventaja adicional: capacidades de DSP (procesamiento de señales digitales) y punto flotante. Es ideal para aplicaciones de procesamiento intensivo, como robótica y sistemas de audio. Si necesitas un procesador que pueda enfrentar cálculos intensivos, el Cortex-M4 está a la altura del desafío.
 
