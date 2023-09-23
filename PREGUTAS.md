@@ -80,7 +80,7 @@ De esta manera podemos decir que, Cortex-🅰️ es ideal para dispositivos de a
 `Referencia`: [ARM Architectures](https://soloelectronicos.com/2022/07/27/hablemos-de-la-familia-stm32/)
 
 
-<p><span style="color: purple;">¡Vaya!</span> ahora que tenemos esta tabla, puedo explicarte un poco más sobre las subfamilias de los procesadores Cortex-M. Como ves, hay modelos como el Cortex-M0, que son menos potentes y requieren menos silicio, y luego están los M4, que ofrecen mucho más rendimiento a costa de ocupar más espacio.</p>
+<p><span style="color: purple;">¡Vaya!</span> ahora que tenemos una visualización gráfica, puedo explicarte un poco más sobre las subfamilias de los procesadores Cortex-M. Como ves, hay modelos como el Cortex-M0, que son menos potentes y requieren menos silicio, y luego están los M4, que ofrecen mucho más rendimiento a costa de ocupar más espacio.</p>
 La familia ARM Cortex-M es genial por varias razones:
 <ul>
   <li>Una arquitectura, muchas implementaciones. Cada fabricante agrega su toque especial, como en automoción, aeroespacial, bajo consumo, FPGA y más.</li>
