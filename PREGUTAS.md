@@ -48,7 +48,7 @@ Durante esta aventura, exploraremos juntos las respuestas a las preguntas orient
 ## Diferencias Entre las Familias Cortex-M
 
 ¡Claro! En el mundo de los microprocesadores ARM, las familias Cortex-M0, M3 y M4 tienen sus propias peculiaridades. El Cortex-M0 es simple y eficiente en energía, ideal para aplicaciones con recursos limitados. El Cortex-M3 ofrece un rendimiento más sólido y se adapta bien a una variedad de aplicaciones. Por último, el Cortex-M4 es similar al M3 pero agrega capacidades de procesamiento de señales digitales (DSP) y punto flotante, lo que lo hace excelente para aplicaciones que requieren un procesamiento intensivo.
-Referencia: [Comparación de las familias Cortex-M](https://developer.arm.com/ip-products/processors/cortex-m)
+
 
 <table style="background-color: #FFFF99; border-collapse: collapse; width: 80%; margin: auto;">
   <tr style="background-color: #FFCC00; color: white;">
@@ -142,6 +142,8 @@ Referencia: [Comparación de las familias Cortex-M](https://developer.arm.com/ip
     <td>Opcional (en algunos modelos)</td>
   </tr>
 </table>
+
+´Referencia: [Comparación de las familias Cortex-M](https://developer.arm.com/ip-products/processors/cortex-m)´
 
 ## Ventajas del Conjunto de Instrucciones Thumb
 
