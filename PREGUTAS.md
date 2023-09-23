@@ -15,11 +15,13 @@
 
 <img align="right" width="50%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/466c6c44-d85b-43ae-bdda-a748411061ca"> 
 
-Vaya ! antes de sumergirnos en las diferencias entre las familias Cortex y todo lo relacionado a la acrquitectura de `micros`, primero entendamos la importancia de estos pequeños pero poderosos dispositivos 🤓🤓. Un microcontrolador es un pequeño dispositivo electrónico que integra un procesador, memoria y periféricos en un solo chip como se evidencia en la *Imagen de Esquema de bloques del microcontrolador*, su propósito principal es controlar, monitorear y ejecutar tareas en sistemas embebidos. 
+Vaya, antes de zambullirnos en las diferencias entre las familias Cortex y todo lo relacionado con la arquitectura de los "micros", primero, ¡necesitamos entender la importancia de estos pequeños pero poderosos dispositivos! 😄
+
+Imagina, un microcontrolador es como el cerebro y el corazón de muchos sistemas electrónicos. Es un pequeño dispositivo electrónico que cabe en la palma de tu mano, pero no subestimes su capacidad. Este pequeño prodigio integra un procesador, memoria y periféricos en un solo chip, como puedes ver en la Imagen de Esquema de bloques del microcontrolador.
 
 *Imagen de esquema de bloques del microcontrolador citada desde [este enlace](https://www.disca.upv.es/aperles/arm_cortex_m3/llibre/libro-ARM-Cortex-M.pdf).*
 
-¿Qué significa eso? Bueno, los sistemas embebidos son sistemas informáticos especializados que están ocultos dentro de otros dispositivos, como electrodomésticos, automóviles, dispositivos médicos y más. Lo que hace que los microcontroladores sean especiales es su capacidad para ejecutar programas específicos y controlar dispositivos del mundo real, como sensores, actuadores, pantallas y más. Son como el cerebro de muchos dispositivos que usamos a diario.
+¿Y cuál es su misión principal? Bueno, su propósito es controlar, monitorear y ejecutar tareas en sistemas embebidos. En otras palabras, estos diminutos héroes electrónicos son los encargados de hacer funcionar todo, desde tu lavadora y secadora, hasta tu teléfono inteligente y tu reloj digital. Sin ellos, la mayoría de los dispositivos que usamos a diario simplemente no funcionarían.
 
 
 <p align="center" width="100%">
