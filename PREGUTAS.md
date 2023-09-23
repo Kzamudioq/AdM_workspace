@@ -159,6 +159,7 @@ Luego, realizamos las operaciones matemáticas y lógicas que necesitamos en nue
 
 <div class="center">
   <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/49bf9fdf-23de-427c-ad74-9699a55909b2" width="300">
+  <img style="margin:auto">
 </div>
 
 Recuerda que en esta arquitectura, no realizamos operaciones de datos directamente en la memoria principal; todo pasa por nuestros registros. ¡Es como una coreografía de baile perfectamente coordinada! 💃💻
