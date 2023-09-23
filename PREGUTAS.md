@@ -72,6 +72,94 @@ De esta manera podemos decir que, Cortex-🅰️ es ideal para dispositivos de a
 🧠 ¡Claro! En el mundo de los microprocesadores ARM, las familias `Cortex-M0, M3 y M4` tienen sus propias peculiaridades. El `Cortex-M0` es simple y eficiente en energía, ideal para aplicaciones con recursos limitados, en `Cortex-M3` se obtiene un rendimiento más sólido y se adapta bien a una variedad de aplicaciones, mientras que el `Cortex-M4` es similar al M3 pero agrega capacidades de procesamiento de señales digitales (DSP) y punto flotante, lo que lo hace excelente para aplicaciones que requieren un procesamiento intensivo.💡
 
 
+
+<table>
+  <tr>
+    <th>Modelo ARM</th>
+    <th>Juego de Instrucciones</th>
+    <th>Thumb-2</th>
+    <th>Multiplicación Hardware</th>
+    <th>División Hardware</th>
+    <th>Extension DSP</th>
+    <th>Como Flotante</th>
+    <th>Versión de Arquitectura</th>
+    <th>Arquitectura CPU</th>
+  </tr>
+  <tr>
+    <td>Cortex-M0</td>
+    <td>parcial 1 o 32 ciclos</td>
+    <td>no</td>
+    <td>no</td>
+    <td>no</td>
+    <td>no</td>
+    <td>no</td>
+    <td>ARMv6-M</td>
+    <td>Von Neuman</td>
+  </tr>
+  <tr>
+    <td>Cortex-M0+</td>
+    <td>parcial 1 o 32 ciclos</td>
+    <td>no</td>
+    <td>no</td>
+    <td>no</td>
+    <td>no</td>
+    <td>no</td>
+    <td>ARMv6-M</td>
+    <td>Von Neuman</td>
+  </tr>
+  <tr>
+    <td>Cortex-M1</td>
+    <td>parcial 3 o 33 ciclos</td>
+    <td>no</td>
+    <td>no</td>
+    <td>no</td>
+    <td>no</td>
+    <td>no</td>
+    <td>ARMv6-M</td>
+    <td>Von Neuman</td>
+  </tr>
+  <tr>
+    <td>Cortex-M3</td>
+    <td>completo 1 ciclo</td>
+    <td>sí</td>
+    <td>no</td>
+    <td>no</td>
+    <td>no</td>
+    <td>no</td>
+    <td>ARMv7-M</td>
+    <td>Harvard</td>
+  </tr>
+  <tr>
+    <td>Cortex-M4</td>
+    <td>completo 1 ciclo</td>
+    <td>sí</td>
+    <td>sí</td>
+    <td>opcional</td>
+    <td>ARMv7EM</td>
+    <td>sí</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+<p>La tabla nos proporciona una visión general de las características de cada modelo de la familia Cortex-M. Como podrás ver, ahora hemos añadido la columna "Como Flotante" para indicar si el modelo tiene soporte para operaciones de punto flotante.</p>
+
+<p>En realidad, la familia Cortex-M está formada por distintas subfamilias que se adaptan a diferentes problemáticas. La tabla 1.1 resume las características de cada subfamilia. No es interesante profundizar aquí en cada variante, destacando simplemente que los modelos M0 son menos potentes y requieren menos silicio para su fabricación y los M4 ofrecen mucho más rendimiento a costa de mayor superficie de silicio.</p>
+
+<p>Este libro trata de la familia ARM Cortex-M, que proporciona beneficios como:</p>
+
+<ul>
+  <li>UNA arquitectura MUCHAS implementaciones. Cada fabricante añade su especialidad: automoción, aeroespacial, bajo consumo, FPGA, ...</li>
+  <li>Muchas herramientas hardware y software. Comerciales y libres. Emuladores, compiladores, IDEs, bibliotecas, ...</li>
+  <li>Comunidad muy activa: blogs, foros, proyectos (mbed, lpcxpresso, mapple, ...).</li>
+  <li>“Starter kits” prácticamente regalados.</li>
+  <li>Depuración, depuración, depuración ... esta característica es fundamental para dedicarse profesionalmente a los microcontroladores.</li>
+</ul>
+
+<p>¡Estamos listos para explorar en detalle cada una de estas subfamilias! 🚀</p>
+
+
+
 <table style="background-color: #FFFF99; border-collapse: collapse; width: 80%; margin: auto;">
   <tr style="background-color: #FFCC00; color: white;">
     <th>Familia de Procesadores</th>
