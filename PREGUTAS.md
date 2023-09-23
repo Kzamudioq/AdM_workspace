@@ -18,7 +18,7 @@ Durante esta aventura, exploraremos juntos las respuestas a las preguntas orient
 
 
 
-¡Hola! Soy Lisa Simpson y estoy emocionada de ayudarte a comprender las familias de microprocesadores de ARM. Las familias principales son `Cortex-A`, `Cortex-R` y `Cortex-M`. Cada una tiene un propósito distinto. `Cortex-A` se destaca en el rendimiento y se encuentra en dispositivos como smartphones. `Cortex-R` se enfoca en aplicaciones en tiempo real, como sistemas de control. Por último, Cortex-M es ideal para sistemas embebidos de baja potencia, como sensores y dispositivos IoT. Las diferencias clave incluyen la potencia de procesamiento y el conjunto de características, lo que permite adaptarlos a diversas aplicaciones.
+¡Hola! Soy Lisa Simpson y estoy emocionada de ayudarte a comprender las familias de microprocesadores de ARM. Las familias principales son `Cortex-A`, `Cortex-R` y `Cortex-M`, cada una tiene un propósito distinto, en `Cortex-A` se destaca en el rendimiento y se encuentra en dispositivos como smartphones, para `Cortex-R` el enfoca es dado en aplicaciones en tiempo real, como sistemas de control, por último, `Cortex-M` es ideal para sistemas embebidos de baja potencia, como sensores y dispositivos IoT. De esta manera, es favorable indicar que las diferencias clave incluyen `la potencia de procesamiento y el conjunto de características`, lo que permite adaptarlos a diversas aplicaciones.
 
 <table style="background-color: #FFFF99; border-collapse: collapse; width: 80%; margin: auto;">
   <tr style="background-color: #FFCC00; color: white;">
@@ -54,7 +54,7 @@ Durante esta aventura, exploraremos juntos las respuestas a las preguntas orient
 
 ## Diferencias Entre las Familias Cortex-M
 
-¡Claro! En el mundo de los microprocesadores ARM, las familias Cortex-M0, M3 y M4 tienen sus propias peculiaridades. El Cortex-M0 es simple y eficiente en energía, ideal para aplicaciones con recursos limitados. El Cortex-M3 ofrece un rendimiento más sólido y se adapta bien a una variedad de aplicaciones. Por último, el Cortex-M4 es similar al M3 pero agrega capacidades de procesamiento de señales digitales (DSP) y punto flotante, lo que lo hace excelente para aplicaciones que requieren un procesamiento intensivo.
+🧠 ¡Claro! En el mundo de los microprocesadores ARM, las familias `Cortex-M0, M3 y M4` tienen sus propias peculiaridades. El `Cortex-M0` es simple y eficiente en energía, ideal para aplicaciones con recursos limitados, en `Cortex-M3` se obtiene un rendimiento más sólido y se adapta bien a una variedad de aplicaciones, mientras que el `Cortex-M4` es similar al M3 pero agrega capacidades de procesamiento de señales digitales (DSP) y punto flotante, lo que lo hace excelente para aplicaciones que requieren un procesamiento intensivo.💡
 
 
 <table style="background-color: #FFFF99; border-collapse: collapse; width: 80%; margin: auto;">
@@ -150,7 +150,7 @@ Durante esta aventura, exploraremos juntos las respuestas a las preguntas orient
 
 ¡Vamos a explorar esto! El conjunto de instrucciones Thumb de ARM es como un atajo inteligente para reducir el tamaño del código. Las instrucciones Thumb son más compactas, lo que significa que ocupan menos espacio en la memoria. Esto es esencial en dispositivos con recursos limitados. Al reducir el tamaño del código, aumentamos la densidad de código, lo que permite almacenar más instrucciones en la misma cantidad de memoria. Es como un juego de tetris con código, ¡optimizando cada espacio disponible!
 
-`Por ende, el set de instrucciones Thumb es una característica inteligente de los procesadores ARM que permite una mayor densidad de código.` 🧠💡
+🧠`Por ende, el set de instrucciones Thumb es una característica inteligente de los procesadores ARM que permite una mayor densidad de código.` 💡
 
 Imagina que tienes un programa de software, y quieres que ocupe la menor cantidad de memoria posible, especialmente en dispositivos con `recursos limitados` como los sistemas embebidos. Aquí es donde entra en juego el set de instrucciones Thumb, 👾 el set de instrucciones Thumb utiliza instrucciones de 16 bits en lugar de las instrucciones de 32 bits del conjunto completo de instrucciones ARM, esto significa que, en general, el código generado con Thumb es más compacto y ocupa menos espacio de memoria. 👍 Entonces, la respuesta a la pregunta 2. ¿Por qué se dice que el set de instrucciones Thumb permite mayor densidad de código? es que el set de instrucciones Thumb permite una mayor densidad de código porque utiliza instrucciones más pequeñas y compactas, lo que ahorra espacio de memoria y es ideal para dispositivos con recursos limitados. 😎
 
