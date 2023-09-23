@@ -148,7 +148,13 @@ Durante esta aventura, exploraremos juntos las respuestas a las preguntas orient
 
 ## Ventajas del Conjunto de Instrucciones Thumb
 
-<p style="text-align: justify;">¡Vamos a explorar esto! El conjunto de instrucciones Thumb de ARM es como un atajo inteligente para reducir el tamaño del código. Las instrucciones Thumb son más compactas, lo que significa que ocupan menos espacio en la memoria. Esto es esencial en dispositivos con recursos limitados. Al reducir el tamaño del código, aumentamos la densidad de código, lo que permite almacenar más instrucciones en la misma cantidad de memoria. Es como un juego de tetris con código, ¡optimizando cada espacio disponible!</p>
+¡Vamos a explorar esto! El conjunto de instrucciones Thumb de ARM es como un atajo inteligente para reducir el tamaño del código. Las instrucciones Thumb son más compactas, lo que significa que ocupan menos espacio en la memoria. Esto es esencial en dispositivos con recursos limitados. Al reducir el tamaño del código, aumentamos la densidad de código, lo que permite almacenar más instrucciones en la misma cantidad de memoria. Es como un juego de tetris con código, ¡optimizando cada espacio disponible!
+
+Por ende, el set de instrucciones Thumb es una característica inteligente de los procesadores ARM que permite una mayor densidad de código. 🧠💡
+
+Imagina que tienes un programa de software, y quieres que ocupe la menor cantidad de memoria posible, especialmente en dispositivos con recursos limitados como los sistemas embebidos. Aquí es donde entra en juego el set de instrucciones Thumb. 👾 El set de instrucciones Thumb utiliza instrucciones de 16 bits en lugar de las instrucciones de 32 bits del conjunto completo de instrucciones ARM, esto significa que, en general, el código generado con Thumb es más compacto y ocupa menos espacio de memoria. 👍
+
+Entonces, la respuesta a la pregunta 2. ¿Por qué se dice que el set de instrucciones Thumb permite mayor densidad de código? es que el set de instrucciones Thumb permite una mayor densidad de código porque utiliza instrucciones más pequeñas y compactas, lo que ahorra espacio de memoria y es ideal para dispositivos con recursos limitados. 😎
 
 Referencia: [ARM Thumb Instruction Set](https://developer.arm.com/documentation/ddi0210/c/)
 
