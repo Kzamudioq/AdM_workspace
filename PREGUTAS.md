@@ -74,7 +74,7 @@ De esta manera podemos decir que, Cortex-🅰️ es ideal para dispositivos de a
 
 
 
-<table>
+<table style="font-size: 12px;">
   <tr>
     <th>Modelo ARM</th>
     <th>Juego de Instrucciones</th>
