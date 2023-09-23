@@ -80,7 +80,7 @@ De esta manera podemos decir que, Cortex-🅰️ es ideal para dispositivos de a
 
 
 <p align="center" width="100%">
-    <img width="33%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/49e114fe-c38e-4e2c-a474-600bff8c82d0"> 
+    <img width="50%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/49e114fe-c38e-4e2c-a474-600bff8c82d0"> 
 </p>
 
 `Referencia`: [ARM Architectures](https://soloelectronicos.com/2022/07/27/hablemos-de-la-familia-stm32/)
