@@ -3,7 +3,7 @@ Este repositorio ha sido creado para respaldar la enseñanza y el aprendizaje de
 
 ## Autor
 
-| [<img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/4d923abf-2c49-4e37-905f-2c76f90c3bab" width=115><br><sub>Karen Tatiana Zamudio</sub>](https://github.com/Kzamudioq) |
+[<img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/4d923abf-2c49-4e37-905f-2c76f90c3bab" width=115><br><sub>Karen Tatiana Zamudio</sub>](https://github.com/Kzamudioq)
 
 - Ingeniera Topográfica 
 - Universidad Francisco José de Caldas
