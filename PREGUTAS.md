@@ -14,6 +14,7 @@ Vaya ! antes de sumergirnos en las diferencias entre las familias Cortex y todo 
 
 <div class="center">
   <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/466c6c44-d85b-43ae-bdda-a748411061ca" width="400">
+  <img style="margin:auto">
 </div>
 
 *Imagen de esquema de bloques del microcontrolador citada desde [este enlace](https://www.disca.upv.es/aperles/arm_cortex_m3/llibre/libro-ARM-Cortex-M.pdf).*
