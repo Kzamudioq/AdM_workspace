@@ -15,7 +15,17 @@ Durante esta aventura, exploraremos juntos las respuestas a las preguntas orient
 
 ## Familias de Microprocesadores ARM
 
-<p style="text-align: justify;">¡Hola! Soy Lisa Simpson y estoy emocionada de ayudarte a comprender las familias de microprocesadores de ARM. Las familias principales son `Cortex-A`, `Cortex-R` y `Cortex-M`. Cada una tiene un propósito distinto. `Cortex-A` se destaca en el rendimiento y se encuentra en dispositivos como smartphones. `Cortex-R` se enfoca en aplicaciones en tiempo real, como sistemas de control. Por último, Cortex-M es ideal para sistemas embebidos de baja potencia, como sensores y dispositivos IoT. Las diferencias clave incluyen la potencia de procesamiento y el conjunto de características, lo que permite adaptarlos a diversas aplicaciones.</p>
+¡Hola! Soy Lisa Simpson y estoy emocionada de ayudarte a comprender las familias de microprocesadores de ARM. Las familias principales son `Cortex-A`, `Cortex-R` y `Cortex-M`. Cada una tiene un propósito distinto. `Cortex-A` se destaca en el rendimiento y se encuentra en dispositivos como smartphones. `Cortex-R` se enfoca en aplicaciones en tiempo real, como sistemas de control. Por último, Cortex-M es ideal para sistemas embebidos de baja potencia, como sensores y dispositivos IoT. Las diferencias clave incluyen la potencia de procesamiento y el conjunto de características, lo que permite adaptarlos a diversas aplicaciones.
+
+
+| Familia de Procesadores        | Características Clave                                      | Aplicaciones Principales  |
+| ------------------------------ | :--------------------------------------------------------: | ------------------------- |
+| **Cortex M0**                  | Diseñado para eficiencia energética y bajo costo.         | Sistemas embebidos con recursos limitados. |
+|                                | Arquitectura simple y compacta.                            | Sensores, dispositivos IoT. |
+| **Cortex M3**                  | Equilibrio entre eficiencia y rendimiento.                | Aplicaciones en tiempo real. |
+|                                | Soporte para interrupciones y multitarea.                  | Controladores de dispositivos. |
+| **Cortex M4**                  | Similar al M3 pero con capacidades de DSP y punto flotante. | Aplicaciones de procesamiento intensivo. |
+|                                | Adecuado para aplicaciones de control y procesamiento de señales. | Robótica, sistemas de audio. |
 
 | Familia de Procesadores | Características Clave | Aplicaciones Principales |
 |------------------------|-----------------------|--------------------------|
@@ -33,8 +43,7 @@ Referencia: [ARM Architectures](https://developer.arm.com/architectures)
 
 ## Diferencias Entre las Familias Cortex-M
 
-<p style="text-align: justify;">¡Claro! En el mundo de los microprocesadores ARM, las familias Cortex-M0, M3 y M4 tienen sus propias peculiaridades. El Cortex-M0 es simple y eficiente en energía, ideal para aplicaciones con recursos limitados. El Cortex-M3 ofrece un rendimiento más sólido y se adapta bien a una variedad de aplicaciones. Por último, el Cortex-M4 es similar al M3 pero agrega capacidades de procesamiento de señales digitales (DSP) y punto flotante, lo que lo hace excelente para aplicaciones que requieren un procesamiento intensivo.</p>
-
+¡Claro! En el mundo de los microprocesadores ARM, las familias Cortex-M0, M3 y M4 tienen sus propias peculiaridades. El Cortex-M0 es simple y eficiente en energía, ideal para aplicaciones con recursos limitados. El Cortex-M3 ofrece un rendimiento más sólido y se adapta bien a una variedad de aplicaciones. Por último, el Cortex-M4 es similar al M3 pero agrega capacidades de procesamiento de señales digitales (DSP) y punto flotante, lo que lo hace excelente para aplicaciones que requieren un procesamiento intensivo.
 Referencia: [Comparación de las familias Cortex-M](https://developer.arm.com/ip-products/processors/cortex-m)
 
 ## Ventajas del Conjunto de Instrucciones Thumb
