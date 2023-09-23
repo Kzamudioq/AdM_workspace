@@ -42,10 +42,10 @@ Durante esta aventura, exploraremos juntos las respuestas a las preguntas orient
 </table>
 
 | Familia de Procesadores        | Características Clave                                      | Aplicaciones Principales  |
-| ------------------------------ | :--------------------------------------------------------: | ------------------------- |
+| ------------------------------ | -------------------------- | ------------------------- |
 | **Cortex M0**                  | Diseñado para eficiencia energética y bajo costo. Arquitectura simple y compacta.         | Sistemas embebidos con recursos limitados. Sensores, dispositivos IoT.|
 | **Cortex M3**                  | Equilibrio entre eficiencia y rendimiento. Soporte para interrupciones y multitarea.      | Aplicaciones en tiempo real. Controladores de dispositivos. |
-| **Cortex M4**                  | Similar al M3 pero con capacidades de DSP y punto flotante.  Adecuado para aplicaciones de control y procesamiento de señales.| Aplicaciones de procesamiento intensivo. Robótica, sistemas de audio.|
+| **Cortex M4**                  | Similar al M3 pero con capacidades de DSP y punto flotante. Adecuado para aplicaciones de control y procesamiento de señales.| Aplicaciones de procesamiento intensivo. Robótica, sistemas de audio.|
 
 
 Referencia: [ARM Architectures](https://developer.arm.com/architectures)
