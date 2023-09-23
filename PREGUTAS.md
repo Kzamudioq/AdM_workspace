@@ -25,6 +25,19 @@ The background color is `#RRGGBB` for light mode and `#0969DA` for dark mode.
 ?>
 ```
 
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+
+|Tables|Are|Cool|
+|-|:-:|-:|
+|col 1 is|left-aligned|$1600|
+|col 2 is|centered|$12|
+|col 3 is|right-aligned|$1|
+
 Durante esta aventura, exploraremos juntos las respuestas a las preguntas orientadoras y aprenderemos más sobre los microprocesadores ARM. ¡Así que, prepárate para sumergirte en el conocimiento y la diversión!
 
 <div class="center">
