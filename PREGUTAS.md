@@ -16,7 +16,7 @@ Vaya ! antes de sumergirnos en las diferencias entre las familias Cortex y todo 
   <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/466c6c44-d85b-43ae-bdda-a748411061ca" width="800">
 </div>
 
-*Imagen de Esquema de bloques del microcontrolador citada desde [este enlace](https://www.disca.upv.es/aperles/arm_cortex_m3/llibre/libro-ARM-Cortex-M.pdf).*
+*Imagen de esquema de bloques del microcontrolador citada desde [este enlace](https://www.disca.upv.es/aperles/arm_cortex_m3/llibre/libro-ARM-Cortex-M.pdf).*
 
 ¿Qué significa eso? Bueno, los sistemas embebidos son sistemas informáticos especializados que están ocultos dentro de otros dispositivos, como electrodomésticos, automóviles, dispositivos médicos y más. Lo que hace que los microcontroladores sean especiales es su capacidad para ejecutar programas específicos y controlar dispositivos del mundo real, como sensores, actuadores, pantallas y más. Son como el cerebro de muchos dispositivos que usamos a diario.
 
@@ -24,7 +24,7 @@ Vaya ! antes de sumergirnos en las diferencias entre las familias Cortex y todo 
   <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/666df2f9-a260-4824-9562-23ff7f75a737" width="800">
 </div>
 
-*Imagen de Esquema de aplicación de procesadores ARM citada desde [este enlace](https://www.kovair.com/blog/future-of-arm-software-development/).*
+*Imagen de aplicación de procesadores ARM citada desde [este enlace](https://www.kovair.com/blog/future-of-arm-software-development/).*
 
 ¡Vamos a comenzar! 🚀 Recurda que durante esta aventura, exploraremos juntos las respuestas a las preguntas orientadoras y aprenderemos más sobre los microprocesadores ARM. ¡Así que, prepárate para sumergirte en el conocimiento y la diversión de la `arquitectura de los microcontroladores`!
 
