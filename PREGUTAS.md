@@ -23,19 +23,19 @@ Estoy emocionada de ayudarte a comprender las familias de microprocesadores de �
 *Imagen de ARM citada desde [este enlace](https://www.orientdisplay.com/es/how-to-select-arm-processors/).*
 
 
-## Cortex-🅰️ 
+### Cortex-🅰️ 
 Los procesadores Cortex-A están diseñados para dispositivos Linux y Android, desde relojes inteligentes hasta equipos de red. Aquí tienes algunas características clave:
 - Los procesadores Cortex-A (A5, A7, A8, A9, A12, A15 y A17) se basan en la arquitectura ARMv7-A.
 - Ofrecen un máximo rendimiento y eficiencia energética, ideales para una variedad de dispositivos.
 - Ejemplos de procesadores: Cortex-A7 para tabletas y teléfonos inteligentes sensibles al costo, Cortex-A15 para dispositivos de gama alta.
 
-## Cortex-🆁
+### Cortex-🆁
 Los procesadores Cortex-R son ideales para aplicaciones en tiempo real de alto rendimiento, como sistemas automotrices y más. Algunos ejemplos incluyen:
 - Cortex-R4: ideal para aplicaciones automotrices, con baja latencia y sincronización de hasta 600 MHz.
 - Cortex-R5: ofrece mayor eficiencia y gestión de errores mejorada, ideal para respuestas en tiempo real.
 - Cortex-R7: mayor rendimiento con canalización de 11 etapas y soporte para multiprocesamiento simétrico y asimétrico.
 
-## Cortex-🅼
+### Cortex-🅼
 Cortex-M está diseñado para microcontroladores (MCU) y se adapta a una variedad de aplicaciones. Aquí están los aspectos más destacados:
 - Los procesadores Cortex-M se utilizan en MCU con memorias, relojes y periféricos integrados.
 - Cortex-M0+: utiliza el conjunto de instrucciones Thumb-2 y es eficiente en energía.
@@ -51,7 +51,7 @@ De esta manera podemos decir que, Cortex-🅰️ es ideal para dispositivos de a
   <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/67ba9f76-0e78-4c72-b221-bfcbd64c9453" width="300">
 </div>
 
-## Diferencias Entre las Familias Cortex-<span style="color: blue;">🅼</span>
+## 1. Diferencias Entre las Familias Cortex-<span style="color: blue;">🅼</span>
 
 🧠 ¡Claro! En el mundo de los microprocesadores ARM, las familias `Cortex-M0, M3 y M4` tienen sus propias peculiaridades. El `Cortex-M0` es simple y eficiente en energía, ideal para aplicaciones con recursos limitados, en `Cortex-M3` se obtiene un rendimiento más sólido y se adapta bien a una variedad de aplicaciones, mientras que el `Cortex-M4` es similar al M3 pero agrega capacidades de procesamiento de señales digitales (DSP) y punto flotante, lo que lo hace excelente para aplicaciones que requieren un procesamiento intensivo.💡
 
@@ -171,7 +171,7 @@ De esta manera podemos decir que, Cortex-🅰️ es ideal para dispositivos de a
 
 `Referencia:` [Comparación de las familias Cortex-M](https://developer.arm.com/ip-products/processors/cortex-m)
 
-## Ventajas del Conjunto de Instrucciones Thumb
+## 2. Ventajas del Conjunto de Instrucciones Thumb
 
 ¡Vamos a explorar esto! El conjunto de instrucciones Thumb de ARM es como un atajo inteligente para reducir el tamaño del código. Las instrucciones Thumb son más compactas, lo que significa que ocupan menos espacio en la memoria. Esto es esencial en dispositivos con recursos limitados. Al reducir el tamaño del código, aumentamos la densidad de código, lo que permite almacenar más instrucciones en la misma cantidad de memoria. Es como un juego de tetris con código, ¡optimizando cada espacio disponible!
 
@@ -182,13 +182,13 @@ Imagina que tienes un programa de software, y quieres que ocupe la menor cantida
 Referencia: [ARM Thumb Instruction Set](https://developer.arm.com/documentation/ddi0210/c/)
 Aplicabilidad: [ARM Thumb Instruction Set](https://developer.arm.com/documentation/ddi0210/c/)
 
-## Arquitectura Load-Store
+## 3. Arquitectura Load-Store
 
 Por supuesto, permíteme explicar. La arquitectura load-store es una forma de organizar las operaciones de un procesador. En esta arquitectura, las operaciones de carga (load) y almacenamiento (store) solo se realizan en registros de propósito general, no directamente en la memoria principal. Las instrucciones de carga directa o almacenamiento directo en memoria, como las que operan directamente en ubicaciones de memoria, no son parte de esta arquitectura. En cambio, en la arquitectura load-store, primero se cargan los datos en registros, se realizan las operaciones y luego se almacenan los resultados en memoria.
 
 Referencia: [Arquitectura load-store](https://www.embedded.com/the-importance-of-the-load-store-architecture/)
 
-## Mapa de Memoria de la Familia Cortex-M
+## 4. Mapa de Memoria de la Familia Cortex-M
 
 Por supuesto, estaré encantada de explicarlo. La familia Cortex-M sigue un mapa de memoria típico para sistemas embebidos. La memoria flash se utiliza para almacenar el código, mientras que la RAM almacena datos. Los registros forman parte del procesador y se utilizan para operaciones de procesamiento. Los periféricos, como puertos de entrada/salida y temporizadores, se mapean en direcciones de memoria específicas para que el procesador pueda interactuar con ellos de manera eficiente. :blush:
 
