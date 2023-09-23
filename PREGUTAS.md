@@ -149,7 +149,7 @@ Aplicabilidad: [ARM Thumb Instruction Set](https://developer.arm.com/documentati
 
 ## 3. Arquitectura Load-Store
 
-Por supuesto, permíteme explicar. La arquitectura load-store es una forma de organizar las operaciones de un procesador. En esta arquitectura, las operaciones de carga (load) y almacenamiento (store) solo se realizan en registros de propósito general, no directamente en la memoria principal. Las instrucciones de carga directa o almacenamiento directo en memoria, como las que operan directamente en ubicaciones de memoria, no son parte de esta arquitectura. En cambio, en la arquitectura load-store, primero se cargan los datos en registros, se realizan las operaciones y luego se almacenan los resultados en memoria.
+Por supuesto, permíteme explicar, la arquitectura load-store es una forma de organizar las operaciones de un procesador. En esta arquitectura, las operaciones de carga (load) y almacenamiento (store) solo se realizan en registros de propósito general, no directamente en la memoria principal. Las instrucciones de carga directa o almacenamiento directo en memoria, como las que operan directamente en ubicaciones de memoria, no son parte de esta arquitectura. En cambio, en la arquitectura load-store, primero se cargan los datos en registros, se realizan las operaciones y luego se almacenan los resultados en memoria.
 
 Referencia: [Arquitectura load-store](https://www.embedded.com/the-importance-of-the-load-store-architecture/)
 
