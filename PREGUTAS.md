@@ -69,7 +69,7 @@ De esta manera podemos decir que, Cortex-🅰️ es ideal para dispositivos de a
 
 ## 1. Diferencias Entre las Familias Cortex-<span style="color: blue;">🅼</span>
 
-🧠 ¡Claro! En el mundo de los microprocesadores ARM, las familias `Cortex-M0, M3 y M4` tienen sus propias peculiaridades. El `Cortex-M0` es simple y eficiente en energía, ideal para aplicaciones con recursos limitados, en `Cortex-M3` se obtiene un rendimiento más sólido y se adapta bien a una variedad de aplicaciones, mientras que el `Cortex-M4` es similar al M3 pero agrega capacidades de procesamiento de señales digitales (DSP) y punto flotante, lo que lo hace excelente para aplicaciones que requieren un procesamiento intensivo.💡
+🧠 ¡Claro! En el mundo de los microprocesadores ARM, las familias `Cortex-M0, M0+, M1, M3 y M4` tienen sus propias peculiaridades. El `Cortex-M0` es simple y eficiente en energía, ideal para aplicaciones con recursos limitados, en `Cortex-M3` se obtiene un rendimiento más sólido y se adapta bien a una variedad de aplicaciones, mientras que el `Cortex-M4` es similar al M3 pero agrega capacidades de procesamiento de señales digitales (DSP) y punto flotante, lo que lo hace excelente para aplicaciones que requieren un procesamiento intensivo.💡
 
 
 
@@ -145,8 +145,8 @@ De esta manera podemos decir que, Cortex-🅰️ es ideal para dispositivos de a
 
 `Referencia:` [Comparación de las familias Cortex-M](https://developer.arm.com/ip-products/processors/cortex-m)
 
-<p><span style="color: purple;">¡Ay caramba!</span> Ahora que tenemos esta tabla, puedo explicarte un poco más sobre las subfamilias de los procesadores Cortex-M. Como ves, hay modelos como el Cortex-M0, que son menos potentes y requieren menos silicio, y luego están los M4, que ofrecen mucho más rendimiento a costa de ocupar más espacio.</p>
-<p>La familia ARM Cortex-M es genial por varias razones:</p>
+<p><span style="color: purple;">¡vaya!</span> ahora que tenemos esta tabla, puedo explicarte un poco más sobre las subfamilias de los procesadores Cortex-M. Como ves, hay modelos como el Cortex-M0, que son menos potentes y requieren menos silicio, y luego están los M4, que ofrecen mucho más rendimiento a costa de ocupar más espacio.</p>
+La familia ARM Cortex-M es genial por varias razones:
 <ul>
   <li>Una arquitectura, muchas implementaciones. Cada fabricante agrega su toque especial, como en automoción, aeroespacial, bajo consumo, FPGA y más.</li>
   <li>Un montón de herramientas, tanto de hardware como de software. Hay emuladores, compiladores, IDEs, bibliotecas y más, ¡algunas son incluso gratuitas!</li>
@@ -154,9 +154,8 @@ De esta manera podemos decir que, Cortex-🅰️ es ideal para dispositivos de a
   <li>Los "starter kits" son prácticamente regalados, lo que facilita empezar con estos microcontroladores.</li>
   <li>Finalmente, la depuración es una parte fundamental en el mundo de los microcontroladores, y la familia Cortex-M lo hace más accesible.</li>
 </ul>
-<p>Estamos listos para explorar en detalle cada una de estas subfamilias. ¡Vamos a aprender más sobre los Cortex-M0, M0+, M1, M3 y M4! 🚀</p>
+Estamos listos para explorar en detalle cada una de estas subfamilias. ¡Vamos a aprender más sobre los `Cortex-M0, M0+, M1, M3 y M4`! 🚀
 
-¡Estamos listos para explorar en detalle cada una de estas subfamilias! 🚀
 
 
 ## 2. Ventajas del Conjunto de Instrucciones Thumb
