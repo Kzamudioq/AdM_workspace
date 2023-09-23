@@ -13,7 +13,7 @@
 
 
 
-<img align="right" width="33%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/466c6c44-d85b-43ae-bdda-a748411061ca"> 
+<img align="right" width="50%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/466c6c44-d85b-43ae-bdda-a748411061ca"> 
 
 Vaya ! antes de sumergirnos en las diferencias entre las familias Cortex y todo lo relacionado a la acrquitectura de `micros`, primero entendamos la importancia de estos pequeños pero poderosos dispositivos 🤓🤓. Un microcontrolador es un pequeño dispositivo electrónico que integra un procesador, memoria y periféricos en un solo chip como se evidencia en la *Imagen de Esquema de bloques del microcontrolador*, su propósito principal es controlar, monitorear y ejecutar tareas en sistemas embebidos. 
 
