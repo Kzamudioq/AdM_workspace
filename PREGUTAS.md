@@ -78,9 +78,10 @@ De esta manera podemos decir que, Cortex-🅰️ es ideal para dispositivos de a
 
 🧠 ¡Claro! En el mundo de los microprocesadores ARM, las familias `Cortex-M0, M0+, M1, M3 y M4` tienen sus propias peculiaridades. El `Cortex-M0` es simple y eficiente en energía, ideal para aplicaciones con recursos limitados, en `Cortex-M3` se obtiene un rendimiento más sólido y se adapta bien a una variedad de aplicaciones, mientras que el `Cortex-M4` es similar al M3 pero agrega capacidades de procesamiento de señales digitales (DSP) y punto flotante, lo que lo hace excelente para aplicaciones que requieren un procesamiento intensivo.💡
 
-<div class="center">
-  <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/49e114fe-c38e-4e2c-a474-600bff8c82d0" width="800">
-</div>
+
+<p align="center" width="100%">
+    <img width="33%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/49e114fe-c38e-4e2c-a474-600bff8c82d0"> 
+</p>
 
 `Referencia`: [ARM Architectures](https://soloelectronicos.com/2022/07/27/hablemos-de-la-familia-stm32/)
 
