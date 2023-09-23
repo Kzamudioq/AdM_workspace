@@ -15,28 +15,7 @@ Durante esta aventura, exploraremos juntos las respuestas a las preguntas orient
 
 ## Familias de Microprocesadores ARM
 
-    ARM cuenta con 3 familias o perfiles denominados
-
-        Cortex A (Application)
-        Cortex R (Real time)
-        Cortex M (Microcontroller)
-
-    Los Cortex A son procesadores de alto rendimiento y se utilizan con sistemas operativos de alta performance (por ej. 
-    Android). Permiten alto nivel de paralelismo, pueden contar con mas de un nucleo (multinucleo), corren a alta frecuencia
-    (mayor a 1GHz), incluyen gran cantidad de memoria RAM y tienen memoria CACHE.
-
-    Lor Cortex R estan orientados a las aplicaciones de tiempo real que requieren baja latencia, alto determinismo y gran 
-    capacidad de computo. Se adecuan a las aplicaciones de sistemas criticos en industrias como medicina y automotor.
-
-    Los Cortex M son procesadores de proposito general, orientados a sistemas embebidos compactos y de consumo masivo. Pueden
-    correr gran cantidad de codigo y se los puede programar integramente en C.
-
-    ¡Hola! Soy Lisa Simpson y estoy emocionada de ayudarte a comprender las familias de microprocesadores de ARM. Las familias principales son `Cortex-A`, `Cortex-R` y `Cortex-M`. Cada una tiene un propósito distinto. `Cortex-A` se destaca en el rendimiento y se encuentra en dispositivos como smartphones. `Cortex- R` se enfoca en aplicaciones en tiempo real, como sistemas de control. Por último, Cortex-M es ideal para sistemas embebidos de baja potencia, como sensores y dispositivos IoT. Las diferencias clave incluyen la potencia de procesamiento y el conjunto de características, lo que permite adaptarlos a diversas aplicaciones.
-
-
-
-
-
+¡Hola! Soy Lisa Simpson y estoy emocionada de ayudarte a comprender las familias de microprocesadores de ARM. Las familias principales son `Cortex-A`, `Cortex-R` y `Cortex-M`. Cada una tiene un propósito distinto. `Cortex-A` se destaca en el rendimiento y se encuentra en dispositivos como smartphones. `Cortex-R` se enfoca en aplicaciones en tiempo real, como sistemas de control. Por último, Cortex-M es ideal para sistemas embebidos de baja potencia, como sensores y dispositivos IoT. Las diferencias clave incluyen la potencia de procesamiento y el conjunto de características, lo que permite adaptarlos a diversas aplicaciones.
 
 <table style="background-color: #FFFF99; border-collapse: collapse; width: 80%; margin: auto;">
   <tr style="background-color: #FFCC00; color: white;">
