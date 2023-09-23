@@ -134,12 +134,6 @@ Durante esta aventura, exploraremos juntos las respuestas a las preguntas orient
     <td>No</td>
     <td>Opcional (en algunos modelos)</td>
   </tr>
-  <tr>
-    <td>División en Hardware</td>
-    <td>No</td>
-    <td>No</td>
-    <td>Opcional (en algunos modelos)</td>
-  </tr>
 </table>
 
 `Referencia:` [Comparación de las familias Cortex-M](https://developer.arm.com/ip-products/processors/cortex-m)
