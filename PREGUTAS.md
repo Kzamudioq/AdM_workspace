@@ -18,11 +18,6 @@ Vaya ! pantes de sumergirnos en las diferencias entre las familias Cortex, prime
   <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/466c6c44-d85b-43ae-bdda-a748411061ca" width="600">
 </div>
 
-
-<div class="center">
-  <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/67ba9f76-0e78-4c72-b221-bfcbd64c9453" width="300">
-</div>
-
 *Imagen de Esquema de bloques del microcontrolador citada desde [este enlace](https://www.disca.upv.es/aperles/arm_cortex_m3/llibre/libro-ARM-Cortex-M.pdf).*
 
 
