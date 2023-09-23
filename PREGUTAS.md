@@ -137,8 +137,8 @@ De esta manera podemos decir que, Cortex-🅰️ es ideal para dispositivos de a
     <td>opcional</td>
     <td>ARMv7EM</td>
     <td>sí</td>
-    <td></td>
-    <td></td>
+    <td>ARMv7-M</td>
+    <td>Harvard</td>
   </tr>
 </table>
 
