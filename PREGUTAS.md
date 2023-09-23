@@ -4,14 +4,17 @@
 # :star: Lisa Simpson te guía: resolución del Cuestionario :star:
 
 
-¡Hola a todos! Soy Lisa Simpson, estoy aquí para ayudarte a navegar por el fascinante mundo de los microprocesadores ARM y resolver este cuestionario. Si alguna vez te has preguntado sobre las diferencias entre las familias Cortex-M, el set de instrucciones Thumb o la arquitectura load-store, ¡has venido al lugar correcto!
-
-
-Durante esta aventura, exploraremos juntos las respuestas a las preguntas orientadoras y aprenderemos más sobre los microprocesadores ARM. ¡Así que, prepárate para sumergirte en el conocimiento y la diversión de la `arquitectura de los microcontroladores`!
+¡Hola a todos! Soy Lisa Simpson, estoy aquí para ayudarte a navegar por el fascinante mundo de los microprocesadores ARM y resolver este cuestionario. 
 
 <div class="center">
   <img src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/2162ff14-54d6-4734-abef-2d290409e292" alt="Lisa Simpson" width="300">
 </div>
+
+Me ustaria iniciar explicando el apasionnado mundo de los micro, 🤓🤓 un microcontrolador es un pequeño dispositivo electrónico que integra un procesador, memoria y periféricos en un solo chip. Su propósito principal es controlar, monitorear y ejecutar tareas en sistemas embebidos. ¿Qué significa eso? Bueno, los sistemas embebidos son sistemas informáticos especializados que están ocultos dentro de otros dispositivos, como electrodomésticos, automóviles, dispositivos médicos y más.
+
+Lo que hace que los microcontroladores sean especiales es su capacidad para ejecutar programas específicos y controlar dispositivos del mundo real, como sensores, actuadores, pantallas y más. Son como el cerebro de muchos dispositivos que usamos a diario.
+
+Así que, antes de sumergirnos en las diferencias entre las familias Cortex, primero entendamos la importancia de estos pequeños pero poderosos dispositivos. ¡Vamos a comenzar! 🚀 Recurda que durante esta aventura, exploraremos juntos las respuestas a las preguntas orientadoras y aprenderemos más sobre los microprocesadores ARM. ¡Así que, prepárate para sumergirte en el conocimiento y la diversión de la `arquitectura de los microcontroladores`!
 
 ## Familias de Microprocesadores 🅰️🆁🅼
 
