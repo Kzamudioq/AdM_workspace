@@ -305,11 +305,14 @@ Su implementación favorece la portabilidad porque la mayoría de los microcontr
 ## 19. ¿Qué funciones cumple la unidad de protección de memoria (MPU)? 🔒
 
 La unidad de protección de memoria (MPU) es como el guardián de la memoria en un microcontrolador. 
-- **Sus funciones incluyen::**
+- **Sus funciones incluyen:**
 
 >  Controlar el acceso a regiones de memoria específicas.
+
 >  Prevenir accesos no autorizados a direcciones de memoria protegidas.
+
 >  Definir permisos para regiones de memoria, como lectura, escritura o ejecución.
+
 
 Imagina que es como poner cerraduras en las puertas de ciertas habitaciones en una casa para que solo algunas personas autorizadas puedan entrar.
 
