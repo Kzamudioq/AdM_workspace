@@ -22,17 +22,16 @@ Imagina, un microcontrolador es como el cerebro y el corazón de muchos sistemas
 
 
 
-`¿Y cuál es su misión principal?` Bueno, su propósito es controlar, monitorear y ejecutar tareas en sistemas embebidos. En otras palabras, estos diminutos héroes electrónicos son los encargados de hacer funcionar todo, desde tu lavadora y secadora, hasta tu teléfono inteligente y tu reloj digital. Sin ellos, la mayoría de los dispositivos que usamos a diario simplemente no funcionarían.
+`¿Y cuál es su misión principal?` Bueno, su propósito es controlar, monitorear y ejecutar tareas en sistemas embebidos, en otras palabras, estos diminutos héroes electrónicos son los encargados de hacer funcionar todo, desde tu lavadora y secadora, hasta tu teléfono inteligente y tu reloj digital. Sin ellos, la mayoría de los dispositivos que usamos a diario simplemente no funcionarían.
 
 
 <p align="center" width="100%">
     <img width="33%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/666df2f9-a260-4824-9562-23ff7f75a737"> 
 </p>
 
-
 *Imagen de aplicación de procesadores ARM citada desde [este enlace](https://www.kovair.com/blog/future-of-arm-software-development/).*
 
-¡Vamos a comenzar! 🚀 Recurda que durante esta aventura, exploraremos juntos las respuestas a las preguntas orientadoras y aprenderemos más sobre los microprocesadores ARM. ¡Así que, prepárate para sumergirte en el conocimiento y la diversión de la `arquitectura de los microcontroladores`!
+¡Vamos a comenzar! 🚀 recurda que durante esta aventura, exploraremos juntos las respuestas a las preguntas orientadoras y aprenderemos más sobre los microprocesadores ARM. ¡Así que, prepárate para sumergirte en el conocimiento y la diversión de la `arquitectura de los microcontroladores`!
 
 ## Familias de Microprocesadores 🅰️🆁🅼
 
