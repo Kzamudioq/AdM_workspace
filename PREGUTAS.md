@@ -37,7 +37,7 @@ Imagina, un microcontrolador es como el cerebro y el corazón de muchos sistemas
 
 ¡Vamos a comenzar! 🚀 recuerda que durante esta aventura, exploraremos juntos las respuestas a las preguntas orientadoras y aprenderemos más sobre los microprocesadores ARM. ¡Así que, prepárate para sumergirte en el conocimiento y la diversión de la `arquitectura de los microcontroladores`!
 
-## Familias de Microprocesadores 🅰️🆁🅼
+## 🧠 Familias de Microprocesadores 🅰️🆁🅼 🧠
 
 
 Estoy emocionada de ayudarte a comprender las familias de microprocesadores de 🅰️🆁🅼. Las familias principales son `Cortex-A`, `Cortex-R` y `Cortex-M`, cada una tiene un propósito distinto, en `Cortex-A` se destaca en el rendimiento y se encuentra en dispositivos como smartphones, para `Cortex-R` el enfoca es dado en aplicaciones en tiempo real, como sistemas de control, por último, `Cortex-M` es ideal para sistemas embebidos de baja potencia, como sensores y dispositivos IoT. De esta manera, es favorable indicar que las diferencias clave incluyen `la potencia de procesamiento y el conjunto de características`, lo que permite adaptarlos a diversas aplicaciones.
