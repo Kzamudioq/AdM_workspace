@@ -335,3 +335,37 @@ Por ejemplo, si una tarea de usuario necesita realizar una operación privilegia
 <h1 align="center">
   <p align="center"> ISA </p>
 </h1>
+
+## 1. ¿Qué son los sufijos y para qué se los utiliza? Dé un ejemplo 📚
+
+Los sufijos son como pequeños trozos de palabras que se agregan al final de una instrucción para indicar el tipo de operación que se va a realizar. Se utilizan para especificar el tipo de datos en una instrucción y son muy útiles para evitar errores y ambigüedades.
+
+Por ejemplo, en ARM Assembly, podemos tener la instrucción ADD para sumar números enteros y ADDS para sumar números enteros y establecer las banderas de estado. Es como si tuvieras una palabra clave que te dice si quieres sumar con o sin saber el resultado.
+
+## 2. ¿Para qué se utiliza el sufijo ‘s’? Dé un ejemplo 🚀
+
+El sufijo 's' se utiliza para indicar que una instrucción debe actualizar las banderas de estado o los flags. Por ejemplo, en ARM Assembly, la instrucción ADDS suma dos números enteros y actualiza las banderas de estado. Esto es útil para realizar comparaciones o saltos condicionales después de la operación.
+
+Imagina que estás corriendo una carrera y, además de llegar a la meta, también quieres saber si rompiste algún récord personal. El sufijo 's' es como marcar una casilla que indica "actualizar los récords".
+
+## 3. ¿Qué utilidad tiene la implementación de instrucciones de aritmética saturada? Dé un ejemplo con operaciones con datos de 8 bits. 😮
+
+Las instrucciones de aritmética saturada son útiles para evitar desbordamientos en los cálculos. Por ejemplo, si sumas dos números de 8 bits y el resultado es mayor que 255, en lugar de obtener un valor incorrecto, la instrucción saturada limitará el resultado al valor máximo (255 en este caso).
+
+Supongamos que estás midiendo la cantidad de agua en un vaso de 8 onzas y agregas 4 onzas más. Con aritmética saturada, en lugar de que el vaso se desborde y pierdas esas 4 onzas, el vaso se llena hasta el borde y no se derrama ni una gota.
+
+## 4. Describa brevemente la interfaz entre assembler y C ¿Cómo se reciben los argumentos de las funciones? ¿Cómo se devuelve el resultado? ¿Qué registros deben guardarse en la pila antes de ser modificados? 🧐
+
+La interfaz entre assembler y C es como un puente entre dos mundos. En C, los argumentos de las funciones se pasan generalmente en los registros o en la pila. El resultado se suele devolver en un registro específico o en la pila.
+
+Por ejemplo, si tienes una función en C que suma dos números, podrías pasar los números como argumentos en registros o en la pila. Luego, la función podría devolver el resultado en un registro o en la pila.
+
+Antes de modificar registros en una función en assembler, es importante guardar los valores originales en la pila para que puedan ser restaurados antes de regresar. Es como tomar una foto de un paisaje antes de hacer cambios y asegurarte de poder volver al estado original.
+
+## 5. ¿Qué es una instrucción SIMD? ¿En qué se aplican y qué ventajas reporta su uso? Dé un ejemplo. 📊
+
+SIMD (Single Instruction, Multiple Data) es como la magia de realizar una sola acción en varios elementos de datos a la vez. Se aplican en operaciones que involucran conjuntos de datos, como procesamiento de imágenes o audio.
+
+Por ejemplo, si tienes una lista de números y quieres multiplicarlos todos por 2, una instrucción SIMD podría hacerlo en una sola operación, en lugar de tener que multiplicar cada número por separado. Las ventajas son un rendimiento mejorado y una ejecución más rápida de tareas que requieren procesamiento en paralelo.
+
+Espero que estas respuestas sean útiles e interesantes, ¡al estilo de Lisa Simpson! 🌟
