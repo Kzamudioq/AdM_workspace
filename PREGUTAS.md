@@ -1,10 +1,7 @@
 @Kzamudio ¿Qué te parece el repositorio? ¡Está chido! :+1:
 
-<em> #:star: Lisa Simpson te guía: resolución del Cuestionario :star: </em>
-
 <h1 align="center">
-  <p align="center">Docusaurus</p>
-  <a href="https://docusaurus.io"><img src="https://docusaurus.io/img/slash-introducing.svg" alt="Docusaurus"></a>
+  <p align="center">:star: Lisa Simpson te guía: resolución del Cuestionario :star:</p>
 </h1>
 
 ¡Hola a todos! Soy Lisa Simpson, estoy aquí para ayudarte a navegar por el fascinante mundo de los microprocesadores ARM y resolver este cuestionario. 
