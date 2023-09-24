@@ -178,13 +178,23 @@ Recuerda que en esta arquitectura, no realizamos operaciones de datos directamen
 
 Referencia: [Arquitectura load-store](https://www.embedded.com/the-importance-of-the-load-store-architecture/)
 
-## 4. Mapa de Memoria de la Familia Cortex-M
+## 4. Mapa de memoria de la familia Cortex-M
 
-Por supuesto, estaré encantada de explicarlo. La familia Cortex-M sigue un mapa de memoria típico para sistemas embebidos. La memoria flash se utiliza para almacenar el código, mientras que la RAM almacena datos. Los registros forman parte del procesador y se utilizan para operaciones de procesamiento. Los periféricos, como puertos de entrada/salida y temporizadores, se mapean en direcciones de memoria específicas para que el procesador pueda interactuar con ellos de manera eficiente. :blush:
+Por supuesto, estaré encantada de explicar la familia Cortex-M sigue un mapa de memoria típico para sistemas embebidos. La memoria flash se utiliza para almacenar el código, mientras que la RAM almacena datos. Los registros forman parte del procesador y se utilizan para operaciones de procesamiento. Los periféricos, como puertos de entrada/salida y temporizadores, se mapean en direcciones de memoria específicas para que el procesador pueda interactuar con ellos de manera eficiente. :blush:
 
 <p align="center" width="100%">
     <img width="33%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/05855047-0c33-44c5-aa4b-b9f7df43ae4b"> 
 </p>
+
+En la anterior imagen que evidencia el mapa de memoria de la familia se define que ARM ha definido un espacio de direcciones de memoria estandarizado que es común a todos los núcleos Cortex-M. Esto es realmente genial porque garantiza que el código sea portátil entre diferentes fabricantes de chips. Ahora, este espacio de direcciones tiene un ancho de 4 gigabytes (sí, ¡gigabytes!) debido a la línea de dirección de 32 bits, y está organizado en varias subregiones, cada una con diferentes funciones lógicas.
+
+Primero, tenemos los primeros 512 megabytes dedicados al área de código. Todos los procesadores Cortex-M asignan el área de código comenzando en la dirección 0x00000000. Esta área es esencial, ya que incluye el puntero al comienzo de la pila (generalmente ubicado en SRAM) y la tabla de vectores de interrupción del sistema.
+
+Luego, hay un área que comienza en la dirección 0x08000000, la cual está vinculada a la memoria flash interna de la MCU (Unidad de Control de Microprocesadores). Esta es la zona donde reside el código del programa. Lo interesante es que, con una configuración de arranque específica, esta área también tiene un alias de dirección en 0x00000000. Esto significa que puedes acceder al contenido de la memoria flash tanto desde la dirección 0x08000000 como desde 0x00000000. ¡Muy versátil!
+
+Además, existe una región llamada "Memoria del sistema", que es una región ROM llena de un cargador de arranque oficial preprogramado. Este cargador de arranque se puede usar para cargar código desde varios periféricos, como USART, USB y bus CAN. Es como la puerta de entrada a la funcionalidad del sistema.
+
+Finalmente, tenemos la región de "Option Bytes" (Bytes de Opciones), que contiene indicadores de bits que se pueden usar para configurar varios aspectos de la MCU. Estos aspectos pueden incluir cosas como protección de lectura flash, vigilancia de hardware, modo de arranque, y más. La configuración de estos bytes de opción es específica de cada microcontrolador, lo que permite ajustar la MCU según tus necesidades particulares. 😊🌟
 
 Referencia: [Mapa de memoria de ARM Cortex-M](https://www.keil.com/pack/doc/cmsis/Core/html/group__system__init__gr.html)
 
