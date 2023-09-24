@@ -198,27 +198,28 @@ Finalmente, tenemos la región de "Option Bytes" (Bytes de Opciones), que contie
 
 Referencia: [Mapa de memoria de ARM Cortex-M](https://www.codeinsideout.com/blog/stm32/intro/#memory-map)
 
+
+
 ## 5.  “shadowed pointers”  vs PSP vs el MSP 😊
 
-Los "shadowed pointers" (Punteros sombreados) del PSP (Program Stack Pointer) y el MSP (Main Stack Pointer) son registros adicionales que permiten guardar y restaurar de manera rápida el estado de las pilas de programas en el Cortex-M. Esto es útil porque, en situaciones como la manipulación de interrupciones, se pueden cambiar las pilas rápidamente sin perder datos importantes. Por ejemplo, al gestionar múltiples tareas en un sistema operativo en tiempo real, los "shadowed pointers" facilitan la conmutación entre las pilas de diferentes tareas de manera eficiente. 👍
+¡Vaya, los "shadowed pointers" (Punteros sombreados) del PSP (Program Stack Pointer) y el MSP (Main Stack Pointer) son como los dobles de seguridad en un juego de cartas! 🃏 Estos registros adicionales permiten guardar y restaurar rápidamente el estado de las pilas de programas en el Cortex-M. Son como las redes de seguridad en un espectáculo de circo, si algo sale mal, ¡tenemos un respaldo sólido! Por ejemplo, al gestionar múltiples tareas en un sistema operativo en tiempo real, los "shadowed pointers" facilitan la conmutación entre las pilas de diferentes tareas de manera eficiente. ¡No perdemos ni un solo malabarista en el aire! 🤹‍♂️
 
 ### 6. Modos de privilegio y operación del Cortex M, sus relaciones y cómo se conmuta de uno al otro. 🔄
 
-- El Cortex-M tiene dos modos de operación principales: 🧠`el modo Thread (Hilo)`🧠 y 🧠`el modo Handler (Manejador)`🧠. El modo Thread es donde se ejecuta el código de usuario, mientras que el modo Handler es donde se manejan las excepciones y las interrupciones.
-- Para cambiar entre estos modos, generalmente se utiliza una instrucción especial llamada "SVC" (Supervisor Call) o al producirse una excepción. Por ejemplo, cuando ocurre una excepción de interrupción, el procesador cambia del modo Thread al modo Handler para manejar la interrupción y luego vuelve al modo Thread cuando termina. ¡Así de versátil es el Cortex-M! 🚀
+El Cortex-M tiene dos modos principales, ¡como dos caras de una misma moneda! 🪙 El modo Thread (Hilo) 🧠 es donde el código de usuario se divierte, mientras que el modo Handler (Manejador) 🧠 es donde se enfrenta a las situaciones difíciles. Para cambiar entre estos modos, generalmente utilizamos una instrucción especial llamada "SVC" (Supervisor Call) o cuando una excepción hace su entrada en escena. Por ejemplo, cuando una excepción de interrupción toma el escenario, el procesador cambia del modo Thread al modo Handler para manejarla y luego regresa al modo Thread cuando la función ha terminado. ¡Es como un acto de circo que cambia de malabaristas a acróbatas y viceversa! 🎪
 
 ### 7. Modelo de registros ortogonal 🤓
 
-El modelo de registros ortogonal significa que los registros del procesador tienen un conjunto coherente de operaciones que se pueden aplicar a cualquier registro de la misma categoría. Por ejemplo, en el Cortex-M, las operaciones aritméticas como sumar, restar o multiplicar se pueden aplicar de la misma manera a cualquier registro general, lo que hace que el código sea más compacto y fácil de escribir. 📜
+El modelo de registros ortogonal es como una caja de herramientas bien organizada, ¡todo encaja perfectamente! 🔧 En el Cortex-M, significa que los registros del procesador tienen un conjunto coherente de operaciones que se aplican de la misma manera a cualquier registro de la misma categoría. Por ejemplo, sumar, restar o multiplicar se realizan igual en cualquier registro general. Es como tener un conjunto de herramientas donde todas las llaves se ajustan a todos los tornillos. 🛠️
 
 ## 8.  Ventajas presenta el uso de instrucciones de ejecución condicional (IT) 🤯
 
-Las instrucciones de ejecución condicional (IT, por sus siglas en inglés) permiten que ciertas operaciones se realicen solo si se cumple una condición específica. Esto ahorra ciclos de reloj y mejora la eficiencia del código. Por ejemplo, en una instrucción IT, podríamos tener un bloque de código que se ejecute solo si una bandera está en un estado particular, como el siguiente:
+Las instrucciones de ejecución condicional (IT) son como hacer magia en el código, ¡se ejecutan solo si se cumple una condición especial! 🎩✨ Esto ahorra ciclos de reloj y hace que el código sea más eficiente. Por ejemplo, con una instrucción IT, podríamos tener un bloque de código que se ejecute solo si una bandera está en un estado particular, como este truco:
 
-  ```assembly
-  IT EQ             ; Ejecutar siguiente instrucción si la bandera Z (igual) está activa
-  ADDS r0, r1, r2  ; Sumar r1 y r2 y almacenar el resultado en r0
-  ```
+```assembly
+IT EQ             ; Ejecutar la siguiente instrucción solo si la bandera Z (igual) está activa
+ADDS r0, r1, r2  ; Sumar r1 y r2 y almacenar el resultado en r0
+```
 
  ## 9. Excepciones más prioritarias (reset, NMI, Hardfault). 😮
 
@@ -240,5 +241,17 @@ El proceso de reset en un microprocesador Cortex-M sigue una secuencia definida:
 
 ## 12. ¿Qué se entiende por “core peripherals”? ¿Qué diferencia existe entre estos y el resto de los periféricos? 🤖
 
-- Los "core peripherals" (periféricos centrales) son periféricos integrados directamente en el núcleo del procesador Cortex-M. Estos periféricos, como el NVIC (Nested Vectored Interrupt Controller) y el SysTick, son esenciales para el funcionamiento del procesador y siempre están presentes en cualquier implementación de Cortex-M.
-- La diferencia clave entre los "core peripherals" y otros periféricos es que los "core peripherals" son parte fundamental del funcionamiento del procesador, mientras que los otros periféricos pueden variar según el fabricante y la aplicación específica.
+"Mira, los 'core peripherals' son como las estrellas principales en un concierto, ¡son absolutamente esenciales para el espectáculo! 🎤 Estos periféricos son como los músicos principales en el escenario, siempre presentes y vitales para el funcionamiento del procesador Cortex-M.  🎩✨ Imagina que estamos diseñando un dron, un pequeño robot volador que necesita mantenerse estable en el aire. Para hacerlo, usamos un microcontrolador Cortex-M, y aquí es donde los 'core peripherals' entran en juego.
+
+<p align="center" width="100%">
+    <img width="70%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/6518ed4b-e243-475a-8d30-5fa9b3c96815"> 
+</p>
+
+Primero, tenemos el NVIC (Nested Vectored Interrupt Controller), que es como el director de orquesta. Cuando el dron encuentra una ráfaga de viento fuerte, el NVIC prioriza rápidamente las señales de los sensores de equilibrio, como si el director dirigiera la atención de la orquesta hacia una parte crítica de la música. Esto nos permite ajustar los motores para mantener la estabilidad en un abrir y cerrar de ojos. Sin el NVIC, sería como dirigir una orquesta sin un líder, ¡el caos!
+
+Luego, está el SysTick, que es como un metrónomo para el procesador. En este caso, marca el ritmo al que tomamos muestras de los sensores y calculamos las correcciones necesarias. Imagina un músico tratando de tocar una canción sin un metrónomo, sería difícil mantener el ritmo adecuado. El SysTick es nuestro ritmo constante para mantener al dron en equilibrio.
+
+Por último, hay otros 'core peripherals' que funcionan como músicos secundarios, como el Controlador de Interrupción Externa (EIC), que maneja las entradas de los controles remotos y detecta situaciones críticas, como colisiones en el aire.
+
+En resumen, en este espectáculo del dron, los 'core peripherals' son las estrellas indiscutibles del escenario. Sin ellos, la actuación podría ser un desastre. Así que, al igual que mantienes tus ojos en las estrellas del escenario en un concierto, recuerda siempre la importancia de los 'core peripherals' en la arquitectura de un microcontrolador Cortex-M. ¡Son los que hacen que todo funcione a la perfección en un mundo tan dinámico como el vuelo de un dron! 🌟🚁"
+
