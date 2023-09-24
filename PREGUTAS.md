@@ -19,20 +19,17 @@ Vaya, antes de zambullirnos en las diferencias entre las familias Cortex y todo 
 Imagina, un microcontrolador es como el cerebro y el corazón de muchos sistemas electrónicos. Es un pequeño dispositivo electrónico que cabe en la palma de tu mano, pero no subestimes su capacidad. Este pequeño prodigio integra un procesador, memoria y periféricos en un solo chip, como puedes ver en la *imagen de esquema de bloques del microcontrolador citada desde [este enlace](https://www.disca.upv.es/aperles/arm_cortex_m3/llibre/libro-ARM-Cortex-M.pdf).*
 
 
-
-
-
 `¿Y cuál es su misión principal?` Bueno, su propósito es controlar, monitorear y ejecutar tareas en sistemas embebidos, en otras palabras, estos diminutos héroes electrónicos son los encargados de hacer funcionar todo, desde tu lavadora y secadora, hasta tu teléfono inteligente y tu reloj digital. Sin ellos, la mayoría de los dispositivos que usamos a diario simplemente no funcionarían.
 
 <p align="center" width="100%">
-    <img width="32%" src="photos/pranksta1.jpg"> 
-    <img width="32%" src="photos/pranksta2.jpg"> 
-    <img width="32%" src="photos/pranksta3.jpg"> 
+    <img width="32%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/01ff8360-8041-4200-9561-5a41e6e1db01"> 
+    <img width="32%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/aec1b786-e341-422a-a7a6-89173f439d17"> 
+    <img width="32%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/ca58c0b2-0007-49d6-81cc-37cc4fbc79f0"> 
 </p>
 <p align="center" width="100%">
-    <img width="32%" src="photos/pranksta4.jpg"> 
-    <img width="32%" src="photos/pranksta5.jpg"> 
-    <img width="32%" src="photos/pranksta6.jpg"> 
+    <img width="32%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/01898572-8479-4f4f-b3c9-1cd825e0b186"> 
+    <img width="32%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/64adf1c8-9484-4249-a35b-9a2c3dee4518"> 
+    <img width="32%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/8dcf2abe-7893-4ea7-82ef-9cdc74e6d2bb"> 
 </p>
 
 
