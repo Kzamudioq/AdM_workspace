@@ -19,7 +19,7 @@ Vaya, antes de zambullirnos en las diferencias entre las familias Cortex y todo 
 Imagina, un microcontrolador es como el cerebro y el corazón de muchos sistemas electrónicos. Es un pequeño dispositivo electrónico que cabe en la palma de tu mano, pero no subestimes su capacidad. Este pequeño prodigio integra un procesador, memoria y periféricos en un solo chip, como puedes ver en la *imagen de esquema de bloques del microcontrolador citada desde [este enlace](https://www.disca.upv.es/aperles/arm_cortex_m3/llibre/libro-ARM-Cortex-M.pdf).*
 
 
-`¿Y cuál es su misión principal?` Bueno, su propósito es controlar, monitorear y ejecutar tareas en sistemas embebidos, en otras palabras, estos diminutos héroes electrónicos son los encargados de hacer funcionar todo, desde tu lavadora y secadora, hasta tu teléfono inteligente y tu reloj digital. Sin ellos, la mayoría de los dispositivos que usamos a diario simplemente no funcionarían.
+`¿Y cuál es su misión principal?` Bueno, su propósito es controlar, monitorear y ejecutar tareas en sistemas embebidos, en otras palabras, estos diminutos héroes electrónicos son los encargados de hacer funcionar todo, desde tu lavadora y secadora, hasta tu teléfono inteligente y tu reloj digital. Sin ellos, la mayoría de los dispositivos que usamos a diario simplemente no funcionarían, alguno se puden viualizar en la ssiguiente imagen.
 
 <p align="center" width="100%">
     <img width="32%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/01ff8360-8041-4200-9561-5a41e6e1db01"> 
@@ -31,14 +31,6 @@ Imagina, un microcontrolador es como el cerebro y el corazón de muchos sistemas
     <img width="32%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/64adf1c8-9484-4249-a35b-9a2c3dee4518"> 
     <img width="32%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/8dcf2abe-7893-4ea7-82ef-9cdc74e6d2bb"> 
 </p>
-
-
-
-<p align="center" width="100%">
-    <img width="33%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/666df2f9-a260-4824-9562-23ff7f75a737"> 
-</p>
-
-*Imagen de aplicación de procesadores ARM citada desde [este enlace](https://www.kovair.com/blog/future-of-arm-software-development/).*
 
 ¡Vamos a comenzar! 🚀 recurda que durante esta aventura, exploraremos juntos las respuestas a las preguntas orientadoras y aprenderemos más sobre los microprocesadores ARM. ¡Así que, prepárate para sumergirte en el conocimiento y la diversión de la `arquitectura de los microcontroladores`!
 
