@@ -79,7 +79,9 @@ De esta manera podemos decir que, Cortex-🅰️ es ideal para dispositivos de a
     <img width="30%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/2162ff14-54d6-4734-abef-2d290409e292"> 
 </p>
 
-
+<h1 align="center">
+  <p align="center">🧠 Cortex-🅼 🧠</p>
+</h1>
 
 ## 1. Diferencias Entre las Familias Cortex-<span style="color: blue;">🅼</span>
 
