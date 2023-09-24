@@ -24,6 +24,18 @@ Imagina, un microcontrolador es como el cerebro y el corazón de muchos sistemas
 
 `¿Y cuál es su misión principal?` Bueno, su propósito es controlar, monitorear y ejecutar tareas en sistemas embebidos, en otras palabras, estos diminutos héroes electrónicos son los encargados de hacer funcionar todo, desde tu lavadora y secadora, hasta tu teléfono inteligente y tu reloj digital. Sin ellos, la mayoría de los dispositivos que usamos a diario simplemente no funcionarían.
 
+<p align="center" width="100%">
+    <img width="32%" src="photos/pranksta1.jpg"> 
+    <img width="32%" src="photos/pranksta2.jpg"> 
+    <img width="32%" src="photos/pranksta3.jpg"> 
+</p>
+<p align="center" width="100%">
+    <img width="32%" src="photos/pranksta4.jpg"> 
+    <img width="32%" src="photos/pranksta5.jpg"> 
+    <img width="32%" src="photos/pranksta6.jpg"> 
+</p>
+
+
 
 <p align="center" width="100%">
     <img width="33%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/666df2f9-a260-4824-9562-23ff7f75a737"> 
