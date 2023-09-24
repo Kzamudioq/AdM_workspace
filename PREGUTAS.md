@@ -233,11 +233,12 @@ La pila es una estructura de datos fundamental en la programación. En Cortex-M,
 
 ## 11. Describa la secuencia de reset del microprocesador.
 
-El proceso de reset en un microprocesador Cortex-M sigue una secuencia definida:
-  1. Al encender o reiniciar el microprocesador, se carga la dirección de inicio desde la dirección de reset (generalmente 0x00000000).
-  2. Se ejecuta el código en la dirección de reset, que suele ser un programa de inicio que configura el sistema.
-  3. El programa de inicio configura la pila, el espacio de direcciones y otros registros.
-  4. Luego, se llama a la función `main()` del programa de usuario, y el programa comienza su ejecución normal.
+"Imagina que el microprocesador Cortex-M es como una máquina que se enciende cuando presionas el botón de inicio de tu computadora 💻. Cuando esto sucede, ocurre una secuencia de eventos muy importante, similar a cuando te levantas por la mañana para empezar tu día. 🌅
+
+  1. Al encender o reiniciar el microprocesador, se carga la dirección de inicio desde la dirección de reset (generalmente 0x00000000). `Piensa en esto como el momento en que te despiertas por la mañana.` 
+  2. Se ejecuta el código en la dirección de reset, que suele ser un programa de inicio que configura el sistema. `Esta es la etapa en la que te levantas de la cama y comienzas a moverte.` 
+  3. El programa de inicio configura la pila, el espacio de direcciones y otros registros. `Aquí es donde te vistes, te preparas un desayuno rápido y te aseguras de tener todo lo que necesitas para el día. En el microprocesador, el programa de inicio establece la pila, que es como preparar una lista de cosas por hacer para el día.`
+  4. Luego, se llama a la función `main()` del programa de usuario, y el programa comienza su ejecución normal. `Ahora es el momento en que te diriges a tus actividades diarias.` 
 
 ## 12. ¿Qué se entiende por “core peripherals”? ¿Qué diferencia existe entre estos y el resto de los periféricos? 🤖
 
