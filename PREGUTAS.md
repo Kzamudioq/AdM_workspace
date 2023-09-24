@@ -241,17 +241,17 @@ El proceso de reset en un microprocesador Cortex-M sigue una secuencia definida:
 
 ## 12. ¿Qué se entiende por “core peripherals”? ¿Qué diferencia existe entre estos y el resto de los periféricos? 🤖
 
-"Mira, los 'core peripherals' son como las estrellas principales en un concierto, ¡son absolutamente esenciales para el espectáculo! 🎤 Estos periféricos son como los músicos principales en el escenario, siempre presentes y vitales para el funcionamiento del procesador Cortex-M.  🎩✨ Imagina que estamos diseñando un dron, un pequeño robot volador que necesita mantenerse estable en el aire. Para hacerlo, usamos un microcontrolador Cortex-M, y aquí es donde los 'core peripherals' entran en juego.
+"Mira, los 'core peripherals' son como las estrellas principales en un concierto, ¡son absolutamente esenciales para el espectáculo! 🎤 Estos periféricos son como los músicos principales en el escenario, siempre presentes y vitales para el funcionamiento del procesador Cortex-M.  🎩✨ Imagina que estamos diseñando un dron 🚁, un pequeño robot volador que necesita mantenerse estable en el aire. Para hacerlo, usamos un microcontrolador Cortex-M, y aquí es donde los 'core peripherals' entran en juego.
 
 <p align="center" width="100%">
     <img width="50%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/0407ceb9-27c0-47a3-bd66-c7bd160db1e1"> 
 </p>
 
-Primero, tenemos el NVIC (Nested Vectored Interrupt Controller), que es como el director de orquesta. Cuando el dron encuentra una ráfaga de viento fuerte, el NVIC prioriza rápidamente las señales de los sensores de equilibrio, como si el director dirigiera la atención de la orquesta hacia una parte crítica de la música. Esto nos permite ajustar los motores para mantener la estabilidad en un abrir y cerrar de ojos. Sin el NVIC, sería como dirigir una orquesta sin un líder, ¡el caos!
+Primero, tenemos el NVIC (Nested Vectored Interrupt Controller) 🎶, que es como el director de orquesta 🎻. Cuando el dron encuentra una ráfaga de viento fuerte, el NVIC prioriza rápidamente las señales de los sensores de equilibrio 🌬️, como si el director dirigiera la atención de la orquesta hacia una parte crítica de la música. Esto nos permite ajustar los motores 🚀 para mantener la estabilidad en un abrir y cerrar de ojos. Sin el NVIC, sería como dirigir una orquesta sin un líder, ¡el caos! 😱
 
-Luego, está el SysTick, que es como un metrónomo para el procesador. En este caso, marca el ritmo al que tomamos muestras de los sensores y calculamos las correcciones necesarias. Imagina un músico tratando de tocar una canción sin un metrónomo, sería difícil mantener el ritmo adecuado. El SysTick es nuestro ritmo constante para mantener al dron en equilibrio.
+Por último, hay otros 'core peripherals' que funcionan como músicos secundarios, como el Controlador de Interrupción Externa (EIC), que maneja las entradas de los controles remotos y detecta situaciones críticas, como colisiones en el aire 🛡️.
 
 Por último, hay otros 'core peripherals' que funcionan como músicos secundarios, como el Controlador de Interrupción Externa (EIC), que maneja las entradas de los controles remotos y detecta situaciones críticas, como colisiones en el aire.
 
-En resumen, en este espectáculo del dron, los 'core peripherals' son las estrellas indiscutibles del escenario. Sin ellos, la actuación podría ser un desastre. Así que, al igual que mantienes tus ojos en las estrellas del escenario en un concierto, recuerda siempre la importancia de los 'core peripherals' en la arquitectura de un microcontrolador Cortex-M. ¡Son los que hacen que todo funcione a la perfección en un mundo tan dinámico como el vuelo de un dron! 🌟🚁"
+En resumen, en este espectáculo del dron, los 'core peripherals' son las estrellas indiscutibles del escenario. Sin ellos, la actuación podría ser un desastre. Así que, al igual que mantienes tus ojos en las estrellas del escenario en un concierto 🌟, recuerda siempre la importancia de los 'core peripherals' en la arquitectura de un microcontrolador Cortex-M. ¡Son los que hacen que todo funcione a la perfección en un mundo tan dinámico como el vuelo de un dron! 🚀🌟🎶"
 
