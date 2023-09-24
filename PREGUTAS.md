@@ -80,7 +80,7 @@ De esta manera podemos decir que, Cortex-🅰️ es ideal para dispositivos de a
 </p>
 
 <h1 align="center">
-  <p align="center">🧠 Cortex-🅼 🧠</p>
+  <p align="center"> Cortex-🅼 </p>
 </h1>
 
 ## 1. Diferencias Entre las Familias Cortex-<span style="color: blue;">🅼</span>
@@ -331,3 +331,7 @@ Imagina que tienes un sistema operativo embebido que maneja múltiples tareas. C
 
 La excepción SVC (Supervisor Call) se utiliza en sistemas operativos embebidos para solicitar servicios al supervisor del sistema, como el kernel del sistema operativo. Es una forma de comunicación entre las aplicaciones de usuario y el núcleo del sistema operativo.
 Por ejemplo, si una tarea de usuario necesita realizar una operación privilegiada, como acceder a un recurso protegido o realizar una acción que requiere privilegios especiales, puede llamar a una rutina SVC para solicitar permisos al kernel. El kernel verifica si la solicitud es válida y luego realiza la operación solicitada. Es como si un pasajero en un avión presionara el botón de llamada para solicitar asistencia del personal de vuelo.
+
+<h1 align="center">
+  <p align="center"> ISA </p>
+</h1>
