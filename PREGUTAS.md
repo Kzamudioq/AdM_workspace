@@ -8,7 +8,7 @@
 
 
 <p align="center" width="100%">
-    <img width="40%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/67ba9f76-0e78-4c72-b221-bfcbd64c9453"> 
+    <img width="60%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/67ba9f76-0e78-4c72-b221-bfcbd64c9453"> 
 </p>
 
 ## 🧠 ¿Qué es un microconrolado? 🧠
