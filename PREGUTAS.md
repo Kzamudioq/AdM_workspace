@@ -1,7 +1,7 @@
 @Kzamudio ¿Qué te parece el repositorio? ¡Está chido! :+1:
 
+<em> # :star: Lisa Simpson te guía: resolución del Cuestionario :star: </em>
 
-# :star: Lisa Simpson te guía: resolución del Cuestionario :star:
 
 
 ¡Hola a todos! Soy Lisa Simpson, estoy aquí para ayudarte a navegar por el fascinante mundo de los microprocesadores ARM y resolver este cuestionario. 
