@@ -16,6 +16,7 @@
 <img align="right" width="65%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/466c6c44-d85b-43ae-bdda-a748411061ca"> 
 
 Vaya, antes de zambullirnos en las diferencias entre las familias Cortex y todo lo relacionado con la arquitectura de los `micros`, primero, ¡necesitamos entender la importancia de estos pequeños pero poderosos dispositivos! 😄. 
+
 Imagina, un microcontrolador es como el cerebro y el corazón de muchos sistemas electrónicos. Es un pequeño dispositivo electrónico que cabe en la palma de tu mano, pero no subestimes su capacidad. Este pequeño prodigio integra un procesador, memoria y periféricos en un solo chip, como puedes ver en la *imagen de esquema de bloques del microcontrolador citada desde [este enlace](https://www.disca.upv.es/aperles/arm_cortex_m3/llibre/libro-ARM-Cortex-M.pdf).*
 
 
