@@ -287,3 +287,42 @@ Por ejemplo, si estás realizando cálculos complejos de punto flotante en una f
 
 Así que, la operación de stacking cambia para incluir registros de punto flotante cuando se utiliza la FPU, lo que garantiza que el estado de la FPU se preserve adecuadamente durante las interrupciones y las llamadas a funciones. 📈📉
 
+## 17. Explique las características avanzadas de atención a interrupciones: tail chaining y late arrival. 🌟
+
+¡Ah, las características avanzadas de atención a interrupciones son fascinantes! 😊
+
+- **Tail chaining (encadenamiento de cola):**
+>  Esta característica permite que, cuando se maneja una interrupción, si hay más interrupciones pendientes en la cola con la misma prioridad, se pueden ejecutar en secuencia sin necesidad de volver a habilitar las interrupciones. Es como si estuvieras en una fila y todos los que están detrás de ti también obtienen su turno.
+
+- **Late arrival (llegada tardía):**
+> Late arrival (llegada tardía): Con esta característica, si una interrupción con mayor prioridad llega mientras se está manejando una interrupción de menor prioridad, el procesador puede detener la interrupción de menor prioridad y atender de inmediato la de mayor prioridad. Es como si estuvieras en una conversación importante y, de repente, alguien con una idea aún más importante entra a la habitación y todos prestan atención a esa persona.
+
+## 18. ¿Qué es el systick? ¿Por qué puede afirmarse que su implementación favorece la portabilidad de los sistemas operativos embebidos? 🕒
+
+El "systick" es como el reloj del sistema en un microcontrolador Cortex-M. Su implementación es genial porque proporciona un temporizador y una cuenta regresiva que se pueden utilizar para generar interrupciones a intervalos regulares. Esto es especialmente útil en sistemas operativos embebidos, ya que permite medir el tiempo con precisión y ejecutar tareas en momentos específicos.
+Su implementación favorece la portabilidad porque la mayoría de los microcontroladores Cortex-M tienen un "systick" similar, por lo que el código que utiliza el "systick" puede ser bastante portátil entre diferentes microcontroladores Cortex-M. Es como tener un reloj estándar en todas partes, independientemente de la marca del reloj. ⏰
+
+## 19. ¿Qué funciones cumple la unidad de protección de memoria (MPU)? 🔒
+
+La unidad de protección de memoria (MPU) es como el guardián de la memoria en un microcontrolador. Sus funciones incluyen:
+
+-Controlar el acceso a regiones de memoria específicas.
+-Prevenir accesos no autorizados a direcciones de memoria protegidas.
+-Definir permisos para regiones de memoria, como lectura, escritura o ejecución.
+
+Imagina que es como poner cerraduras en las puertas de ciertas habitaciones en una casa para que solo algunas personas autorizadas puedan entrar.
+
+## 20. ¿Cuántas regiones pueden configurarse como máximo? ¿Qué ocurre en caso de haber solapamientos de las regiones? ¿Qué ocurre con las zonas de memoria no cubiertas por las regiones definidas? 🔍
+
+¡Buena pregunta! Se pueden configurar varias regiones de memoria en una MPU, pero el número exacto puede variar según el microcontrolador específico. Si hay solapamientos entre regiones, generalmente se aplica la región de mayor prioridad, como si tuvieras dos capas de seguridad en una puerta, y la más fuerte tiene prioridad.
+Las zonas de memoria no cubiertas por las regiones definidas generalmente tienen acceso completo, como si fueran áreas públicas. Es importante definir bien las regiones para asegurarse de que la memoria esté protegida adecuadamente.
+
+## 21. ¿Para qué se suele utilizar la excepción PendSV? ¿Cómo se relaciona su uso con el resto de las excepciones? Dé un ejemplo 🚀
+La excepción PendSV (Pendable Supervisor Call) se utiliza comúnmente en sistemas operativos embebidos para realizar cambios de contexto entre tareas. Se relaciona con otras excepciones, como las de interrupción, porque puede usarse para programar la ejecución de tareas específicas en momentos oportunos.
+
+Imagina que tienes un sistema operativo embebido que maneja múltiples tareas. Cuando una tarea actualiza sus datos y debe ceder el control a otra tarea, PendSV se utiliza para realizar un cambio de contexto suave, asegurando que la tarea adecuada tome el control. Es como si tuvieras un director de orquesta que indica cuándo cada músico debe tocar su instrumento.
+
+## 22. ¿Para qué se suele utilizar la excepción SVC? Expliquelo dentro de un marco de un sistema operativo embebido. 🌐
+
+La excepción SVC (Supervisor Call) se utiliza en sistemas operativos embebidos para solicitar servicios al supervisor del sistema, como el kernel del sistema operativo. Es una forma de comunicación entre las aplicaciones de usuario y el núcleo del sistema operativo.
+Por ejemplo, si una tarea de usuario necesita realizar una operación privilegiada, como acceder a un recurso protegido o realizar una acción que requiere privilegios especiales, puede llamar a una rutina SVC para solicitar permisos al kernel. El kernel verifica si la solicitud es válida y luego realiza la operación solicitada. Es como si un pasajero en un avión presionara el botón de llamada para solicitar asistencia del personal de vuelo.
