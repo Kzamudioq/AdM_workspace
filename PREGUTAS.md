@@ -244,7 +244,7 @@ El proceso de reset en un microprocesador Cortex-M sigue una secuencia definida:
 "Mira, los 'core peripherals' son como las estrellas principales en un concierto, ¡son absolutamente esenciales para el espectáculo! 🎤 Estos periféricos son como los músicos principales en el escenario, siempre presentes y vitales para el funcionamiento del procesador Cortex-M.  🎩✨ Imagina que estamos diseñando un dron, un pequeño robot volador que necesita mantenerse estable en el aire. Para hacerlo, usamos un microcontrolador Cortex-M, y aquí es donde los 'core peripherals' entran en juego.
 
 <p align="center" width="100%">
-    <img width="70%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/6518ed4b-e243-475a-8d30-5fa9b3c96815"> 
+    <img width="70%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/0407ceb9-27c0-47a3-bd66-c7bd160db1e1"> 
 </p>
 
 Primero, tenemos el NVIC (Nested Vectored Interrupt Controller), que es como el director de orquesta. Cuando el dron encuentra una ráfaga de viento fuerte, el NVIC prioriza rápidamente las señales de los sensores de equilibrio, como si el director dirigiera la atención de la orquesta hacia una parte crítica de la música. Esto nos permite ajustar los motores para mantener la estabilidad en un abrir y cerrar de ojos. Sin el NVIC, sería como dirigir una orquesta sin un líder, ¡el caos!
