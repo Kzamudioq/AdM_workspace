@@ -182,6 +182,10 @@ Referencia: [Arquitectura load-store](https://www.embedded.com/the-importance-of
 
 Por supuesto, estaré encantada de explicarlo. La familia Cortex-M sigue un mapa de memoria típico para sistemas embebidos. La memoria flash se utiliza para almacenar el código, mientras que la RAM almacena datos. Los registros forman parte del procesador y se utilizan para operaciones de procesamiento. Los periféricos, como puertos de entrada/salida y temporizadores, se mapean en direcciones de memoria específicas para que el procesador pueda interactuar con ellos de manera eficiente. :blush:
 
+<p align="center" width="100%">
+    <img width="33%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/05855047-0c33-44c5-aa4b-b9f7df43ae4b"> 
+</p>
+
 Referencia: [Mapa de memoria de ARM Cortex-M](https://www.keil.com/pack/doc/cmsis/Core/html/group__system__init__gr.html)
 
 
