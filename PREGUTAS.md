@@ -198,41 +198,47 @@ Finalmente, tenemos la región de "Option Bytes" (Bytes de Opciones), que contie
 
 Referencia: [Mapa de memoria de ARM Cortex-M](https://www.codeinsideout.com/blog/stm32/intro/#memory-map)
 
+## 5.  “shadowed pointers”  vs PSP vs el MSP 😊
 
+Los "shadowed pointers" (Punteros sombreados) del PSP (Program Stack Pointer) y el MSP (Main Stack Pointer) son registros adicionales que permiten guardar y restaurar de manera rápida el estado de las pilas de programas en el Cortex-M. Esto es útil porque, en situaciones como la manipulación de interrupciones, se pueden cambiar las pilas rápidamente sin perder datos importantes. Por ejemplo, al gestionar múltiples tareas en un sistema operativo en tiempo real, los "shadowed pointers" facilitan la conmutación entre las pilas de diferentes tareas de manera eficiente. 👍
 
+### 6. Modos de privilegio y operación del Cortex M, sus relaciones y cómo se conmuta de uno al otro. 🔄
 
+- El Cortex-M tiene dos modos de operación principales: 🧠`el modo Thread (Hilo)`🧠 y 🧠`el modo Handler (Manejador)`🧠. El modo Thread es donde se ejecuta el código de usuario, mientras que el modo Handler es donde se manejan las excepciones y las interrupciones.
+- Para cambiar entre estos modos, generalmente se utiliza una instrucción especial llamada "SVC" (Supervisor Call) o al producirse una excepción. Por ejemplo, cuando ocurre una excepción de interrupción, el procesador cambia del modo Thread al modo Handler para manejar la interrupción y luego vuelve al modo Thread cuando termina. ¡Así de versátil es el Cortex-M! 🚀
 
+### 7. Modelo de registros ortogonal 🤓
 
-> [!NOTE]
-> Highlights information that users should take into account, even when skimming.
+El modelo de registros ortogonal significa que los registros del procesador tienen un conjunto coherente de operaciones que se pueden aplicar a cualquier registro de la misma categoría. Por ejemplo, en el Cortex-M, las operaciones aritméticas como sumar, restar o multiplicar se pueden aplicar de la misma manera a cualquier registro general, lo que hace que el código sea más compacto y fácil de escribir. 📜
 
-> [!IMPORTANT]
-> Crucial information necessary for users to succeed.
+## 8.  Ventajas presenta el uso de instrucciones de ejecución condicional (IT) 🤯
 
-> [!WARNING]
-> Critical content demanding immediate user attention due to potential risks.
+Las instrucciones de ejecución condicional (IT, por sus siglas en inglés) permiten que ciertas operaciones se realicen solo si se cumple una condición específica. Esto ahorra ciclos de reloj y mejora la eficiencia del código. Por ejemplo, en una instrucción IT, podríamos tener un bloque de código que se ejecute solo si una bandera está en un estado particular, como el siguiente:
 
+  ```assembly
+  IT EQ             ; Ejecutar siguiente instrucción si la bandera Z (igual) está activa
+  ADDS r0, r1, r2  ; Sumar r1 y r2 y almacenar el resultado en r0
+  ```
 
-`línea de código`
+ ## 9. Excepciones más prioritarias (reset, NMI, Hardfault). 😮
 
-```php
-<?php
-  echo "fragmento largo de código";
-?>
-```
+- **Reset:** Esta es la excepción más prioritaria y ocurre al encender o reiniciar el microcontrolador. Restablece todos los registros y configuraciones a sus valores iniciales.
+- **NMI (Non-Maskable Interrupt):** Esta excepción tiene la segunda prioridad más alta y no se puede deshabilitar. Se utiliza para situaciones críticas que deben ser manejadas sin importar el estado del procesador.
+- **Hardfault:** Esta excepción ocurre cuando se detecta un error grave en la ejecución del código. Es una señal de que algo está muy mal y generalmente se usa para depuración.
 
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+## 10. Funciones principales de la pila. ¿Cómo resuelve la arquitectura el llamado a funciones y su retorno? 📚
 
+La pila es una estructura de datos fundamental en la programación. En Cortex-M, se utiliza para almacenar direcciones de retorno, registros y otros datos temporales durante las llamadas a funciones. Cuando se llama a una función, la dirección de retorno se almacena en la pila, junto con otros registros que deben preservarse. Cuando la función completa su ejecución, la dirección de retorno se recupera de la pila y el programa vuelve a donde se llamó a la función. Esto permite que las funciones se llamen de manera anidada sin perder la pista de dónde regresar. 🔄
 
-|Tables|Are|Cool|
-|-|:-:|-:|
-|col 1 is|left-aligned|$1600|
-|col 2 is|centered|$12|
-|col 3 is|right-aligned|$1|
+## 11. Describa la secuencia de reset del microprocesador.
 
+El proceso de reset en un microprocesador Cortex-M sigue una secuencia definida:
+  1. Al encender o reiniciar el microprocesador, se carga la dirección de inicio desde la dirección de reset (generalmente 0x00000000).
+  2. Se ejecuta el código en la dirección de reset, que suele ser un programa de inicio que configura el sistema.
+  3. El programa de inicio configura la pila, el espacio de direcciones y otros registros.
+  4. Luego, se llama a la función `main()` del programa de usuario, y el programa comienza su ejecución normal.
 
+## 12. ¿Qué se entiende por “core peripherals”? ¿Qué diferencia existe entre estos y el resto de los periféricos? 🤖
 
+- Los "core peripherals" (periféricos centrales) son periféricos integrados directamente en el núcleo del procesador Cortex-M. Estos periféricos, como el NVIC (Nested Vectored Interrupt Controller) y el SysTick, son esenciales para el funcionamiento del procesador y siempre están presentes en cualquier implementación de Cortex-M.
+- La diferencia clave entre los "core peripherals" y otros periféricos es que los "core peripherals" son parte fundamental del funcionamiento del procesador, mientras que los otros periféricos pueden variar según el fabricante y la aplicación específica.
