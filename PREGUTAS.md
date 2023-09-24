@@ -35,7 +35,7 @@ Imagina, un microcontrolador es como el cerebro y el corazón de muchos sistemas
     <img width="32%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/8dcf2abe-7893-4ea7-82ef-9cdc74e6d2bb"> 
 </p>
 
-¡Vamos a comenzar! 🚀 recurda que durante esta aventura, exploraremos juntos las respuestas a las preguntas orientadoras y aprenderemos más sobre los microprocesadores ARM. ¡Así que, prepárate para sumergirte en el conocimiento y la diversión de la `arquitectura de los microcontroladores`!
+¡Vamos a comenzar! 🚀 recuerda que durante esta aventura, exploraremos juntos las respuestas a las preguntas orientadoras y aprenderemos más sobre los microprocesadores ARM. ¡Así que, prepárate para sumergirte en el conocimiento y la diversión de la `arquitectura de los microcontroladores`!
 
 ## Familias de Microprocesadores 🅰️🆁🅼
 
