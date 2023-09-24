@@ -256,3 +256,32 @@ Por último, hay otros 'core peripherals' que funcionan como músicos secundario
 
 En resumen, en este espectáculo del dron, los 'core peripherals' son las estrellas indiscutibles del escenario. Sin ellos, la actuación podría ser un desastre. Así que, al igual que mantienes tus ojos en las estrellas del escenario en un concierto 🌟, recuerda siempre la importancia de los 'core peripherals' en la arquitectura de un microcontrolador Cortex-M. ¡Son los que hacen que todo funcione a la perfección en un mundo tan dinámico como el vuelo de un dron! 🚀🌟🎶"
 
+## 13. ¿Cómo se implementan las prioridades de las interrupciones? Dé un ejemplo 🚀
+
+Las prioridades de las interrupciones se implementan en el Cortex-M utilizando un controlador de interrupciones llamado NVIC (Nested Vectored Interrupt Controller), cada interrupción tiene un número de prioridad asociado, y las interrupciones se atienden en función de su prioridad.
+
+Por ejemplo, si tienes dos interrupciones: una para manejar el botón de encendido y otra para manejar el botón de apagado en un dispositivo electrónico, puedes asignar una prioridad más alta a la interrupción del botón de encendido para que se atienda primero en caso de que ambos botones se presionen al mismo tiempo. Así, el NVIC se encargará de manejar estas prioridades y asegurarse de que se atiendan en el orden correcto.
+
+## 14. ¿Qué es el CMSIS? ¿Qué función cumple? ¿Quién lo provee? ¿Qué ventajas aporta? 🧰
+
+CMSIS (Cortex Microcontroller Software Interface Standard) es un estándar desarrollado por ARM que proporciona una capa de abstracción de hardware y un conjunto de interfaces para microcontroladores Cortex-M, su función principal es ofrecer una forma unificada y coherente de interactuar con el hardware del microcontrolador, independientemente del fabricante específico del chip.
+
+CMSIS es provisto por ARM, el mismo fabricante de los núcleos Cortex-M. Sus ventajas incluyen la portabilidad del código entre diferentes microcontroladores Cortex-M, ya que sigue un estándar común, también simplifica el desarrollo de software al proporcionar una API consistente para el acceso a registros y periféricos del microcontrolador.
+
+
+## 15. Cuando ocurre una interrupción, asumiendo que está habilitada ¿Cómo opera el microprocesador para atender a la subrutina correspondiente? Explique con un ejemplo 🔄
+
+Cuando ocurre una interrupción habilitada en el Cortex-M, el microprocesador sigue un proceso de manejo de interrupciones. Primero, el procesador completa la ejecución de la instrucción actual y guarda el estado actual en la pila.
+Luego, el microprocesador carga la dirección de la rutina de servicio de interrupción (ISR) correspondiente desde la tabla de vectores de interrupción en memoria. Esto es como buscar en un libro la página correcta para encontrar la información que necesitas.
+
+A continuación, el procesador ejecuta las instrucciones en la ISR para manejar la interrupción. Una vez que se completa la ISR, se restaura el estado previo de la pila y se reanuda la ejecución del programa principal.
+
+**Ejemplo:** imagina un microcontrolador que controla un robot, cuando se presiona un botón en el robot, se genera una interrupción para manejarlo. El procesador detiene momentáneamente lo que está haciendo (como seguir una línea) y ejecuta la ISR que gira el robot en respuesta al botón presionado. Después de eso, vuelve a su tarea principal, como continuar siguiendo la línea.
+
+## 16. ¿Cómo cambia la operación de stacking al utilizar la unidad de punto flotante? 📊
+
+Cuando se utiliza la unidad de punto flotante (FPU) en el Cortex-M, las operaciones de stacking (apilamiento) pueden cambiar para incluir registros de punto flotante adicionales. La FPU tiene sus propios registros, y al realizar operaciones de punto flotante, estos registros también deben guardarse en la pila si es necesario preservar su estado.
+Por ejemplo, si estás realizando cálculos complejos de punto flotante en una función y esa función se interrumpe por una interrupción, además de preservar los registros generales, también debes preservar los registros de punto flotante para asegurarte de que los cálculos se puedan reanudar correctamente cuando se vuelva a la función original.
+
+Así que, la operación de stacking cambia para incluir registros de punto flotante cuando se utiliza la FPU, lo que garantiza que el estado de la FPU se preserve adecuadamente durante las interrupciones y las llamadas a funciones. 📈📉
+
