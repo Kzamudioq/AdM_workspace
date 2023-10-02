@@ -208,6 +208,10 @@ Referencia: [Mapa de memoria de ARM Cortex-M](https://www.codeinsideout.com/blog
 
 ¡Vaya, los "shadowed pointers" (Punteros sombreados) del PSP (Program Stack Pointer) y el MSP (Main Stack Pointer) son como los dobles de seguridad en un juego de cartas! 🃏 Estos registros adicionales permiten guardar y restaurar rápidamente el estado de las pilas de programas en el Cortex-M. Son como las redes de seguridad en un espectáculo de circo, si algo sale mal, ¡tenemos un respaldo sólido! Por ejemplo, al gestionar múltiples tareas en un sistema operativo en tiempo real, los "shadowed pointers" facilitan la conmutación entre las pilas de diferentes tareas de manera eficiente. ¡No perdemos ni un solo malabarista en el aire! 🤹‍♂️
 
+<p align="center" width="100%">
+    <img width="60%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/d67e9f44-eb00-4c78-b1d1-d502af2eed7f"> 
+</p>
+
 ### 6. Modos de privilegio y operación del Cortex M, sus relaciones y cómo se conmuta de uno al otro. 🔄
 
 El Cortex-M tiene dos modos principales, ¡como dos caras de una misma moneda! 🪙 El modo Thread (Hilo) 🧠 es donde el código de usuario se divierte, mientras que el modo Handler (Manejador) 🧠 es donde se enfrenta a las situaciones difíciles. Para cambiar entre estos modos, generalmente utilizamos una instrucción especial llamada "SVC" (Supervisor Call) o cuando una excepción hace su entrada en escena. Por ejemplo, cuando una excepción de interrupción toma el escenario, el procesador cambia del modo Thread al modo Handler para manejarla y luego regresa al modo Thread cuando la función ha terminado. ¡Es como un acto de circo que cambia de malabaristas a acróbatas y viceversa! 🎪
