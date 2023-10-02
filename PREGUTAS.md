@@ -278,6 +278,10 @@ IT EQ             ; Ejecutar la siguiente instrucción solo si la bandera Z (igu
 ADDS r0, r1, r2  ; Sumar r1 y r2 y almacenar el resultado en r0
 ```
 
+<p align="center" width="100%">
+    <img width="33%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/0f2c5716-6713-4066-b01a-244e71a82916"> 
+</p>
+
  ## 9. Excepciones más prioritarias (reset, NMI, Hardfault). 😮
 
 - **Reset:** Esta es la excepción más prioritaria y ocurre al encender o reiniciar el microcontrolador. Restablece todos los registros y configuraciones a sus valores iniciales.
