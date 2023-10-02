@@ -324,9 +324,7 @@ Primero, tenemos el NVIC (Nested Vectored Interrupt Controller) 🎶, que es com
 
 Por último, hay otros 'core peripherals' que funcionan como músicos secundarios, como el Controlador de Interrupción Externa (EIC), que maneja las entradas de los controles remotos y detecta situaciones críticas, como colisiones en el aire 🛡️.
 
-Por último, hay otros 'core peripherals' que funcionan como músicos secundarios, como el Controlador de Interrupción Externa (EIC), que maneja las entradas de los controles remotos y detecta situaciones críticas, como colisiones en el aire.
-
-En resumen, en este espectáculo del dron, los 'core peripherals' son las estrellas indiscutibles del escenario. Sin ellos, la actuación podría ser un desastre. Así que, al igual que mantienes tus ojos en las estrellas del escenario en un concierto 🌟, recuerda siempre la importancia de los 'core peripherals' en la arquitectura de un microcontrolador Cortex-M. ¡Son los que hacen que todo funcione a la perfección en un mundo tan dinámico como el vuelo de un dron! 🚀🌟🎶"
+De esta manera podemos decir que: `en este espectáculo del dron, los 🌟core peripherals🌟 son las estrellas indiscutibles del escenario, sin ellos, la actuación podría ser un desastre` . Así que, al igual que mantienes tus ojos en las estrellas del escenario en un concierto 🌟, recuerda siempre la importancia de los 'core peripherals' en la arquitectura de un microcontrolador Cortex-M. ¡Son los que hacen que todo funcione a la perfección en un mundo tan dinámico como el vuelo de un dron! 🚀🌟🎶"
 
 ## 13. ¿Cómo se implementan las prioridades de las interrupciones? Dé un ejemplo 🚀
 
