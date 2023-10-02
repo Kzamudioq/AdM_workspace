@@ -206,10 +206,59 @@ Referencia: [Mapa de memoria de ARM Cortex-M](https://www.codeinsideout.com/blog
 
 ## 5.  “shadowed pointers”  vs PSP vs el MSP 😊
 
-¡Vaya, los "shadowed pointers" (Punteros sombreados) del PSP (Program Stack Pointer) y el MSP (Main Stack Pointer) son como los dobles de seguridad en un juego de cartas! 🃏 Estos registros adicionales permiten guardar y restaurar rápidamente el estado de las pilas de programas en el Cortex-M. Son como las redes de seguridad en un espectáculo de circo, si algo sale mal, ¡tenemos un respaldo sólido! Por ejemplo, al gestionar múltiples tareas en un sistema operativo en tiempo real, los "shadowed pointers" facilitan la conmutación entre las pilas de diferentes tareas de manera eficiente. ¡No perdemos ni un solo malabarista en el aire! 🤹‍♂️
+¡Vaya, los "shadowed pointers" (Punteros sombreados) del PSP (Program Stack Pointer) y el MSP (Main Stack Pointer) son como los dobles de seguridad en un juego de cartas! 🃏 Estos registros adicionales permiten guardar y restaurar rápidamente el estado de las pilas de programas en el Cortex-M. Son como las redes de seguridad en un espectáculo de circo, si algo sale mal, ¡tenemos un respaldo sólido! Por ejemplo, al gestionar múltiples tareas en un sistema operativo en tiempo real, los "shadowed pointers" facilitan la conmutación entre las pilas de diferentes tareas de manera eficiente ¡No perdemos ni un solo malabarista en el aire! 🤹‍♂️
+
+<table>
+  <thead>
+    <tr>
+      <th>Características</th>
+      <th>"Shadowed Pointers"</th>
+      <th>PSP (Program Stack Pointer)</th>
+      <th>MSP (Main Stack Pointer)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Uso Principal</td>
+      <td>Gestión eficiente de pilas</td>
+      <td>Pila de subrutina de tareas</td>
+      <td>Pila principal del sistema</td>
+    </tr>
+    <tr>
+      <td>Cambio Rápido</td>
+      <td>Sí</td>
+      <td>No</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Tamaño Personalizable</td>
+      <td>Sí</td>
+      <td>No</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Almacenamiento y Restauración Rápida</td>
+      <td>Sí</td>
+      <td>No</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Prevención de Pérdida de Datos</td>
+      <td>Sí</td>
+      <td>No</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Ejemplo de Aplicación</td>
+      <td>Cambio rápido entre tareas en un sistema en tiempo real.</td>
+      <td>Mantenimiento de contexto durante interrupciones.</td>
+      <td>Pila principal del sistema</td>
+    </tr>
+  </tbody>
+</table>
 
 <p align="center" width="100%">
-    <img width="60%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/d67e9f44-eb00-4c78-b1d1-d502af2eed7f"> 
+    <img width="33%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/d67e9f44-eb00-4c78-b1d1-d502af2eed7f"> 
 </p>
 
 ### 6. Modos de privilegio y operación del Cortex M, sus relaciones y cómo se conmuta de uno al otro. 🔄
