@@ -263,7 +263,7 @@ Referencia: [Mapa de memoria de ARM Cortex-M](https://www.codeinsideout.com/blog
 
 ### 6. Modos de privilegio y operación del Cortex M, sus relaciones y cómo se conmuta de uno al otro. 🔄
 
-El Cortex-M tiene dos modos principales, ¡como dos caras de una misma moneda! 🪙 El modo Thread (Hilo) 🧠 es donde el código de usuario se divierte, mientras que el modo Handler (Manejador) 🧠 es donde se enfrenta a las situaciones difíciles. Para cambiar entre estos modos, generalmente utilizamos una instrucción especial llamada "SVC" (Supervisor Call) o cuando una excepción hace su entrada en escena. Por ejemplo, cuando una excepción de interrupción toma el escenario, el procesador cambia del modo Thread al modo Handler para manejarla y luego regresa al modo Thread cuando la función ha terminado. ¡Es como un acto de circo que cambia de malabaristas a acróbatas y viceversa! 🎪
+El Cortex-M tiene dos modos principales, ¡como dos caras de una misma moneda! 🪙 `el modo Thread (Hilo) 🧠 donde el código de usuario se ejecuta de manera cotidiana`, mientras que `el modo Handler (Manejador) 🧠 donde se enfrenta a las situaciones difíciles y resuelve problemas.` Para cambiar entre estos modos, generalmente utilizamos una instrucción especial llamada "SVC" (Supervisor Call) o cuando una excepción hace su entrada en escena. Por ejemplo, cuando una excepción de interrupción toma el escenario, el procesador cambia del modo Thread al modo Handler para manejarla y luego regresa al modo Thread cuando la función ha terminado. ✨¡Es como un acto de circo que cambia de malabaristas a acróbatas y viceversa! 🎪✨
 
 ### 7. Modelo de registros ortogonal 🤓
 
