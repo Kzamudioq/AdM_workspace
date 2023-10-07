@@ -305,7 +305,7 @@ Reset_Handler:
   ; Iniciar programa principal (main)
 ```
 
-2.. **NMI (Non-Maskable Interrupt) 🚫🔇:** ea NMI es la segunda excepción más prioritaria y no se puede deshabilitar, se utiliza para situaciones críticas que deben manejarse sin importar el estado actual del procesador.
+2. **NMI (Non-Maskable Interrupt) 🚫🔇:** ea NMI es la segunda excepción más prioritaria y no se puede deshabilitar, se utiliza para situaciones críticas que deben manejarse sin importar el estado actual del procesador.
 
 ```c
 void NMI_Handler(void) {
@@ -313,7 +313,7 @@ void NMI_Handler(void) {
 }
 ```
 
-3.. **Hardfault 💥❌:** el Hardfault es una excepción que ocurre cuando se detecta un error grave en la ejecución del código. Por ejemplo, al intentar realizar una operación no válida como dividir por cero.
+3. **Hardfault 💥❌:** el Hardfault es una excepción que ocurre cuando se detecta un error grave en la ejecución del código. Por ejemplo, al intentar realizar una operación no válida como dividir por cero.
 
 ```c
 void generate_hardfault(void) {
