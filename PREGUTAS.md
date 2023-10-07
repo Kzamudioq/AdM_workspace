@@ -295,10 +295,6 @@ ADDS r0, r1, r2  ; Sumar r1 y r2 y almacenar el resultado en r0
 
  ## 9. Excepciones más prioritarias (reset, NMI, Hardfault). 😮
 
-- **Reset:** Esta es la excepción más prioritaria y ocurre al encender o reiniciar el microcontrolador. Restablece todos los registros y configuraciones a sus valores iniciales.
-- **NMI (Non-Maskable Interrupt):** Esta excepción tiene la segunda prioridad más alta y no se puede deshabilitar. Se utiliza para situaciones críticas que deben ser manejadas sin importar el estado del procesador.
-- **Hardfault:** Esta excepción ocurre cuando se detecta un error grave en la ejecución del código. Es una señal de que algo está muy mal y generalmente se usa para depuración.
-
 Las excepciones más prioritarias en un microcontrolador Cortex-M son:
 
 1. **Reset 🔄:**  esta excepción es la más prioritaria y se produce al encender o reiniciar el microcontrolador, su función es restablecer todos los registros y configuraciones a sus valores iniciales.
