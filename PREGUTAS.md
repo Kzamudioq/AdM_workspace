@@ -419,8 +419,9 @@ Finalmente, establecemos la prioridad de la interrupción y configuramos el grup
 
 ¡Así es como se implementan las prioridades de interrupciones en Cortex-M! Es como asignar asientos en un teatro para que las interrupciones más importantes tengan los mejores lugares. 🎭
 
-
-
+<p align="center" width="100%">
+    <img width="30%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/a05a3b00-2a39-4d4e-878d-575c64b2460d"> 
+</p>
 
 
 ## 14. ¿Qué es el CMSIS? ¿Qué función cumple? ¿Quién lo provee? ¿Qué ventajas aporta? 🧰
