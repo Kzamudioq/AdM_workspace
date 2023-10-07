@@ -329,6 +329,38 @@ Estas excepciones son fundamentales para garantizar el funcionamiento adecuado y
 
 La pila es una estructura de datos fundamental en la programación. En Cortex-M, se utiliza para almacenar direcciones de retorno, registros y otros datos temporales durante las llamadas a funciones. Cuando se llama a una función, la dirección de retorno se almacena en la pila, junto con otros registros que deben preservarse. Cuando la función completa su ejecución, la dirección de retorno se recupera de la pila y el programa vuelve a donde se llamó a la función. Esto permite que las funciones se llamen de manera anidada sin perder la pista de dónde regresar. 🔄
 
+### ¿Qué es la Pila? 🔄
+
+La pila es como una torre de bloques en la que podemos apilar y desapilar datos de manera ordenada. En Cortex-M, se utiliza para:
+
+1. **Almacenamiento Temporal:** Guardamos datos importantes mientras ejecutamos funciones, como registros y direcciones de retorno. 🧐
+
+2. **Gestión de Subrutinas:** Cuando llamamos a una función, guardamos la dirección de retorno en la pila. Esto nos permite recordar dónde debemos volver después de que la función termine. 🔄
+
+3. **Anidamiento de Funciones:** Podemos llamar a funciones dentro de otras funciones, creando una pila de llamadas. Esto ayuda a estructurar nuestro código de manera modular y eficiente. 📦
+
+4. **Gestión de Recursos:** La pila también nos ayuda a administrar recursos limitados, como la memoria de pila disponible. Evita desbordamientos y asegura que no agotemos recursos. 🧱
+
+### Llamado a Funciones y Retorno 📞
+
+Ahora, veamos cómo Cortex-M maneja el llamado a funciones y su retorno usando ejemplos en código ensamblador:
+
+```assembly
+; Ejemplo de Llamado a Función
+MAIN:
+    PUSH {LR}          ; Guardamos la dirección de retorno en la pila
+    BL MyFunction     ; Llamamos a la función MyFunction
+    POP {LR}           ; Recuperamos la dirección de retorno
+
+MyFunction:
+    ; Aquí va el código de la función
+    ; Puedes hacer lo que necesites
+    BX LR             ; Retornamos utilizando la dirección de retorno
+```
+En este ejemplo, usamos las instrucciones PUSH y POP para guardar y recuperar la dirección de retorno en la pila. La instrucción BL se utiliza para llamar a la función, y BX LR se usa para retornar a la dirección de retorno guardada. 😊
+
+Así es como funciona la pila y el llamado a funciones en Cortex-M. ¡Es como construir y desarmar torres de bloques mientras ejecutamos nuestro código! 🏗️
+
 ## 11. Describa la secuencia de reset del microprocesador.
 
 "Imagina que el microprocesador Cortex-M es como una máquina que se enciende cuando presionas el botón de inicio de tu computadora 💻. Cuando esto sucede, ocurre una secuencia de eventos muy importante, similar a cuando te levantas por la mañana para empezar tu día. 🌅
