@@ -327,11 +327,10 @@ Estas excepciones son fundamentales para garantizar el funcionamiento adecuado y
 
 ## 10. Funciones principales de la pila. ¿Cómo resuelve la arquitectura el llamado a funciones y su retorno? 📚
 
-La pila es una estructura de datos fundamental en la programación. En Cortex-M, se utiliza para almacenar direcciones de retorno, registros y otros datos temporales durante las llamadas a funciones. Cuando se llama a una función, la dirección de retorno se almacena en la pila, junto con otros registros que deben preservarse. Cuando la función completa su ejecución, la dirección de retorno se recupera de la pila y el programa vuelve a donde se llamó a la función. Esto permite que las funciones se llamen de manera anidada sin perder la pista de dónde regresar. 🔄
 
 ### ¿Qué es la Pila? 🔄
 
-La pila es como una torre de bloques en la que podemos apilar y desapilar datos de manera ordenada. En Cortex-M, se utiliza para:
+La pila es como una torre de bloques en la que podemos apilar y desapilar datos de manera ordenada. En Cortex-M, se utilizada para almacenar direcciones de retorno, registros y otros datos temporales durante las llamadas a funciones. Cuando se llama a una función, la dirección de retorno se almacena en la pila, junto con otros registros que deben preservarse. Cuando la función completa su ejecución, la dirección de retorno se recupera de la pila y el programa vuelve a donde se llamó a la función. Esto permite que las funciones se llamen de manera anidada sin perder la pista de dónde regresar. 🔄 En Cortex-M, es implementada para:
 
 1. **Almacenamiento Temporal:** Guardamos datos importantes mientras ejecutamos funciones, como registros y direcciones de retorno. 🧐
 
