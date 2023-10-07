@@ -299,6 +299,36 @@ ADDS r0, r1, r2  ; Sumar r1 y r2 y almacenar el resultado en r0
 - **NMI (Non-Maskable Interrupt):** Esta excepción tiene la segunda prioridad más alta y no se puede deshabilitar. Se utiliza para situaciones críticas que deben ser manejadas sin importar el estado del procesador.
 - **Hardfault:** Esta excepción ocurre cuando se detecta un error grave en la ejecución del código. Es una señal de que algo está muy mal y generalmente se usa para depuración.
 
+Las excepciones más prioritarias en un microcontrolador Cortex-M son:
+
+1. **Reset 🔄:**  esta excepción es la más prioritaria y se produce al encender o reiniciar el microcontrolador, su función es restablecer todos los registros y configuraciones a sus valores iniciales.
+```assembly
+Reset_Handler:
+  ; Configurar registros y periféricos
+  ; Inicializar la pila
+  ; Iniciar programa principal (main)
+```
+
+2.. **NMI (Non-Maskable Interrupt) 🚫🔇:** ea NMI es la segunda excepción más prioritaria y no se puede deshabilitar, se utiliza para situaciones críticas que deben manejarse sin importar el estado actual del procesador.
+
+```c
+void NMI_Handler(void) {
+  // Manejar la interrupción NMI aquí
+}
+```
+
+3.. **Hardfault 💥❌:** el Hardfault es una excepción que ocurre cuando se detecta un error grave en la ejecución del código. Por ejemplo, al intentar realizar una operación no válida como dividir por cero.
+
+```c
+void generate_hardfault(void) {
+  // Generar un Hardfault al intentar dividir por cero
+  int result = 5 / 0;
+}
+```
+
+Estas excepciones son fundamentales para garantizar el funcionamiento adecuado y la integridad del sistema en situaciones críticas.
+
+
 ## 10. Funciones principales de la pila. ¿Cómo resuelve la arquitectura el llamado a funciones y su retorno? 📚
 
 La pila es una estructura de datos fundamental en la programación. En Cortex-M, se utiliza para almacenar direcciones de retorno, registros y otros datos temporales durante las llamadas a funciones. Cuando se llama a una función, la dirección de retorno se almacena en la pila, junto con otros registros que deben preservarse. Cuando la función completa su ejecución, la dirección de retorno se recupera de la pila y el programa vuelve a donde se llamó a la función. Esto permite que las funciones se llamen de manera anidada sin perder la pista de dónde regresar. 🔄
