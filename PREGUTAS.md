@@ -385,9 +385,9 @@ De esta manera podemos decir que: `en este espectáculo del dron, los 🌟core p
 
 ## 13. ¿Cómo se implementan las prioridades de las interrupciones? Dé un ejemplo 🚀
 
-Las prioridades de las interrupciones se implementan en el Cortex-M utilizando un controlador de interrupciones llamado NVIC (Nested Vectored Interrupt Controller), cada interrupción tiene un número de prioridad asociado, y las interrupciones se atienden en función de su prioridad. En Cortex-M, las prioridades de las interrupciones determinan cuál de ellas se atiende primero en caso de que varias ocurran al mismo tiempo. Esto es crucial para gestionar eventos importantes en sistemas embebidos. Las interrupciones con mayor prioridad se atienden antes que las de menor prioridad. 🥇🥈
+Las prioridades de las interrupciones se implementan en el Cortex-M utilizando un controlador de interrupciones llamado NVIC (Nested Vectored Interrupt Controller), cada interrupción tiene un número de prioridad asociado, y las interrupciones se atienden en función de su prioridad. En Cortex-M, `las prioridades de las interrupciones determinan cuál de ellas se atiende primero en caso de que varias ocurran al mismo tiempo`. Esto es crucial para gestionar eventos importantes en sistemas embebidos. Las interrupciones con mayor prioridad se atienden antes que las de menor prioridad. 🥇🥈
 
-Veamos un ejemplo de cómo se implementan las prioridades de interrupciones en código ensamblador:
+Veamos un ejemplo de cómo se implementan las prioridades de interrupciones en código assembly:
 
 ```assembly
 ; Configuración de Prioridades de Interrupciones
@@ -411,11 +411,7 @@ LDRB R5, [R0, R2]        ; Leer el registro de prioridades actual
 ORRS R5, R5, R3          ; Combinar con la nueva prioridad
 STRB R5, [R0, R2]        ; Establecer el nuevo valor del grupo de prioridades
 ```
-En este ejemplo, primero habilitamos y configuramos las interrupciones con las prioridades deseadas. Definimos la dirección de la rutina de interrupción (MyInterrupt) y configuramos el grupo de prioridades y el valor de prioridad según nuestras necesidades.
-
-Luego, calculamos el número de interrupción (IRQn) restando la dirección de la rutina de interrupción de la dirección base del NVIC.
-
-Finalmente, establecemos la prioridad de la interrupción y configuramos el grupo de prioridades, asegurándonos de que todo esté configurado correctamente.
+En este ejemplo, `primero habilitamos y configuramos las interrupciones con las prioridades deseadas`, definimos la dirección de la rutina de interrupción (MyInterrupt) y configuramos el grupo de prioridades y el valor de prioridad según nuestras necesidades. Luego, `calculamos el número de interrupción (IRQn) restando la dirección de la rutina de interrupción de la dirección base del NVIC`. Finalmente, `establecemos la prioridad de la interrupción y configuramos el grupo de prioridades`, asegurándonos de que todo esté configurado correctamente.
 
 ¡Así es como se implementan las prioridades de interrupciones en Cortex-M! Es como asignar asientos en un teatro para que las interrupciones más importantes tengan los mejores lugares. 🎭
 
