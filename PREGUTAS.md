@@ -467,6 +467,14 @@ En este ejemplo, hemos incluido la biblioteca CMSIS y utilizamos las funciones _
 
 ## 15. Cuando ocurre una interrupción, asumiendo que está habilitada ¿Cómo opera el microprocesador para atender a la subrutina correspondiente? Explique con un ejemplo 🔄
 
+Te contaré cómo opera el microprocesador Cortex-M cuando ocurre una interrupción. ¡Es como el teléfono que suena en medio de una conversación importante! 📞
+
+
+<p align="center" width="100%">
+    <img width="30%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/6d1d5e8c-9dc5-4acc-b466-e731d1de1fde"> 
+</p>
+
+
 Cuando ocurre una interrupción habilitada en el Cortex-M, el microprocesador sigue un proceso de manejo de interrupciones. Primero, el procesador completa la ejecución de la instrucción actual y guarda el estado actual en la pila.
 Luego, el microprocesador carga la dirección de la rutina de servicio de interrupción (ISR) correspondiente desde la tabla de vectores de interrupción en memoria. Esto es como buscar en un libro la página correcta para encontrar la información que necesitas.
 
