@@ -474,6 +474,65 @@ Te contaré cómo opera el microprocesador Cortex-M cuando ocurre una interrupci
     <img width="30%" src="https://github.com/Kzamudioq/AdM_workspace/assets/138271936/6d1d5e8c-9dc5-4acc-b466-e731d1de1fde"> 
 </p>
 
+### 🔄 Proceso de atención a interrupciones 🔄
+
+Cuando ocurre una interrupción, asumiendo que está habilitada, el microprocesador sigue estos pasos:
+
+1. **Detención de la Ejecución Actual**: el microprocesador detiene la ejecución del código actual y finaliza la instrucción en curso.
+
+2. **Guardar el Estado Actual**: guarda el estado actual de la CPU, lo que incluye registros y la dirección de retorno, en la pila.
+
+3. **Buscar la Subrutina de Manejo de Interrupciones  (ISR)** : consulta la tabla de vectores de interrupción para encontrar la dirección de inicio de la subrutina de manejo de la interrupción específica.
+
+4. **Ejecución de la Subrutina de Interrupción**: salta a la dirección de inicio de la subrutina de manejo de interrupción y comienza a ejecutarla.
+
+5. **Finalización de la Subrutina de Interrupción**: cuando se completa la subrutina de manejo de interrupción, se utiliza la instrucción de retorno de interrupción (por ejemplo, `BX LR` en ARM) para volver a la dirección de retorno guardada previamente en la pila.
+
+6. **Restauración del Estado**: el microprocesador restaura el estado anterior guardado en la pila, lo que incluye registros y la dirección de retorno.
+
+7. **Continuación de la Ejecución**: la ejecución del programa original se reanuda desde donde se detuvo, como si nada hubiera ocurrido. 😊
+
+### 🧑‍💻 Ejemplo en código assembly 🧑‍💻
+
+```assembly
+; Ejemplo de atención a interrupciones en código ensamblador
+
+; Definir un vector de interrupción para la interrupción EXTI0
+EXTERN EXTI0_IRQHandler
+
+; Esta es la función principal
+Main:
+    ; Configurar el controlador de interrupciones para habilitar EXTI0
+    ...
+    ; Habilitar las interrupciones globales
+    CPSIE I
+
+    ; El programa principal continúa ejecutándose aquí
+    ...
+
+; Subrutina de manejo de interrupción EXTI0
+EXTI0_IRQHandler:
+    ; Guardar el estado actual en la pila
+    PUSH {LR, R0, R1, R2, R3, ...}
+
+    ; código de manejo de interrupción aquí
+    ...
+
+    ; Restaurar el estado y volver de la interrupción
+    POP {LR, R0, R1, R2, R3, ...}
+    BX LR
+```
+
+🎪 En este ejemplo, cuando ocurre una interrupción EXTI0, el microprocesador guarda el estado actual en la pila, salta a la subrutina EXTI0_IRQHandler, ejecuta el código de manejo de interrupción y luego restaura el estado y vuelve al programa principal. ¡Así es como el Cortex-M maneja interrupciones como un profesional! 🎪
+
+
+
+
+
+
+
+
+
 
 Cuando ocurre una interrupción habilitada en el Cortex-M, el microprocesador sigue un proceso de manejo de interrupciones. Primero, el procesador completa la ejecución de la instrucción actual y guarda el estado actual en la pila.
 Luego, el microprocesador carga la dirección de la rutina de servicio de interrupción (ISR) correspondiente desde la tabla de vectores de interrupción en memoria. Esto es como buscar en un libro la página correcta para encontrar la información que necesitas.
