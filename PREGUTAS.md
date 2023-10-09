@@ -478,19 +478,13 @@ Te contaré cómo opera el microprocesador Cortex-M cuando ocurre una interrupci
 
 Cuando ocurre una interrupción, asumiendo que está habilitada, el microprocesador sigue estos pasos:
 
-1. **Detención de la Ejecución Actual**: el microprocesador detiene la ejecución del código actual y finaliza la instrucción en curso.
-
-2. **Guardar el Estado Actual**: guarda el estado actual de la CPU, lo que incluye registros y la dirección de retorno, en la pila.
-
-3. **Buscar la Subrutina de Manejo de Interrupciones  (ISR)** : consulta la tabla de vectores de interrupción para encontrar la dirección de inicio de la subrutina de manejo de la interrupción específica.
-
-4. **Ejecución de la Subrutina de Interrupción**: salta a la dirección de inicio de la subrutina de manejo de interrupción y comienza a ejecutarla.
-
-5. **Finalización de la Subrutina de Interrupción**: cuando se completa la subrutina de manejo de interrupción, se utiliza la instrucción de retorno de interrupción (por ejemplo, `BX LR` en ARM) para volver a la dirección de retorno guardada previamente en la pila.
-
-6. **Restauración del Estado**: el microprocesador restaura el estado anterior guardado en la pila, lo que incluye registros y la dirección de retorno.
-
-7. **Continuación de la Ejecución**: la ejecución del programa original se reanuda desde donde se detuvo, como si nada hubiera ocurrido. 😊
+1. `**Detención de la ejecución actual**:` el microprocesador detiene la ejecución del código actual y finaliza la instrucción en curso.
+2. `**Guardar el estado actual**:` guarda el estado actual de la CPU, lo que incluye registros y la dirección de retorno, en la pila.
+3. `**Buscar la subrutina de manejo de interrupciones  (ISR)** :` consulta la tabla de vectores de interrupción para encontrar la dirección de inicio de la subrutina de manejo de la interrupción específica.
+4. `**Ejecución de la subrutina de interrupción**:` salta a la dirección de inicio de la subrutina de manejo de interrupción y comienza a ejecutarla.
+5. `**Finalización de la subrutina de interrupción**:` cuando se completa la subrutina de manejo de interrupción, se utiliza la instrucción de retorno de interrupción (por ejemplo, `BX LR` en ARM) para volver a la dirección de retorno guardada previamente en la pila.
+6. `**Restauración del estado**:` el microprocesador restaura el estado anterior guardado en la pila, lo que incluye registros y la dirección de retorno.
+7. `**Continuación de la ejecución**:` la ejecución del programa original se reanuda desde donde se detuvo, como si nada hubiera ocurrido. 😊
 
 ### 🧑‍💻 Ejemplo en código assembly 🧑‍💻
 
@@ -523,7 +517,7 @@ EXTI0_IRQHandler:
     BX LR
 ```
 
-🎪 En este ejemplo, cuando ocurre una interrupción EXTI0, el microprocesador guarda el estado actual en la pila, salta a la subrutina EXTI0_IRQHandler, ejecuta el código de manejo de interrupción y luego restaura el estado y vuelve al programa principal. ¡Así es como el Cortex-M maneja interrupciones como un profesional! 🎪
+🎪 En este ejemplo, cuando ocurre una `interrupción EXTI0`, el microprocesador guarda el estado actual en la pila, salta a la subrutina EXTI0_IRQHandler, ejecuta el código de manejo de interrupción y luego restaura el estado y vuelve al programa principal. ¡Así es como el Cortex-M maneja interrupciones como un profesional! 🎪
 
 
 
