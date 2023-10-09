@@ -486,6 +486,8 @@ Cuando ocurre una interrupción, asumiendo que está habilitada, el microprocesa
 6. `Restauración del estado:` el microprocesador restaura el estado anterior guardado en la pila, lo que incluye registros y la dirección de retorno.
 7. `Continuación de la ejecución:` la ejecución del programa original se reanuda desde donde se detuvo, como si nada hubiera ocurrido. 😊
 
+**Ejemplo:** 🤖 imagina un microcontrolador que controla un robot, cuando se presiona un botón en el robot, se genera una interrupción para manejarlo. El procesador detiene momentáneamente lo que está haciendo (como seguir una línea) y ejecuta la ISR que gira el robot en respuesta al botón presionado. Después de eso, vuelve a su tarea principal, como continuar siguiendo la línea. 🤖 😄🌟
+
 ### 🧑‍💻 Ejemplo en código assembly 🧑‍💻
 
 ```assembly
@@ -519,21 +521,6 @@ EXTI0_IRQHandler:
 
 🎪 En este ejemplo, cuando ocurre una `interrupción EXTI0`, el microprocesador guarda el estado actual en la pila, salta a la subrutina EXTI0_IRQHandler, ejecuta el código de manejo de interrupción y luego restaura el estado y vuelve al programa principal. ¡Así es como el Cortex-M maneja interrupciones como un profesional! 🎪
 
-
-
-
-
-
-
-
-
-
-Cuando ocurre una interrupción habilitada en el Cortex-M, el microprocesador sigue un proceso de manejo de interrupciones. Primero, el procesador completa la ejecución de la instrucción actual y guarda el estado actual en la pila.
-Luego, el microprocesador carga la dirección de la rutina de servicio de interrupción (ISR) correspondiente desde la tabla de vectores de interrupción en memoria. Esto es como buscar en un libro la página correcta para encontrar la información que necesitas.
-
-A continuación, el procesador ejecuta las instrucciones en la ISR para manejar la interrupción. Una vez que se completa la ISR, se restaura el estado previo de la pila y se reanuda la ejecución del programa principal.
-
-**Ejemplo:** imagina un microcontrolador que controla un robot, cuando se presiona un botón en el robot, se genera una interrupción para manejarlo. El procesador detiene momentáneamente lo que está haciendo (como seguir una línea) y ejecuta la ISR que gira el robot en respuesta al botón presionado. Después de eso, vuelve a su tarea principal, como continuar siguiendo la línea.
 
 ## 16. ¿Cómo cambia la operación de stacking al utilizar la unidad de punto flotante? 📊
 
